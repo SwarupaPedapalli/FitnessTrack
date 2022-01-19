@@ -3,8 +3,8 @@ Fitness Track web application concentrates on the fitness activities of a user o
 
 ### External Requirements
 In order to run the project successfully, following needs to be installed
-* C#
-* .net
+* C# .NET
+* HTML CSS
 * SQLite
 
 ### Authors
