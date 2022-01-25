@@ -7,6 +7,16 @@
 3. User can complete, postpone or schedule the task in their available times.
 4. Once user completes the task, they will be added with their bonus.
 
+## Vision
+
+Fitness Track web application concentrates on the fitness activities of a user on the daily basis. Whenever user logins to the application, it displays days of the week. Once the user selects the day, it directs the user to that particular scheldued exercises for that day. If the user doesn't have any time or energy to complete the task on that day, they can schedule the task for their next available days and times. User can also customize the level of hardness. If the user completes the exercises on time without postponing it, the user will be rewarded with bonus points and will be notified that the task accomplished.
+
+## Functional Requirements
+
+1. C# .NET </br>
+2. HTML CSS </br>
+3. SQLite </br>
+
 ## Images
 <img src="images/Home Page.jpeg" alt="homepage_Diagram"/>
 <img src="images/login,signup.jpeg" alt="login_Diagram"/>
