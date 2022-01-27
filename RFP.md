@@ -21,6 +21,19 @@ Fitness Track web application concentrates on the fitness activities of a user o
 2. HTML CSS </br>
 3. SQLite </br>
 
+## Screen Flow
+#### Home Screen: 
+This is a screen which shows a header with login and signup button.  A description box which talks about fitness,and displays image of excersise and see more button which directs to the next screen.
+
+#### Login page: 
+This is a page where user can register and log in to the application.
+
+#### Screen for the weekly plan: 
+This screen displays all the week days and corresponding fitness excersises. When user clicks on a particular day, the user will be redirected to the page where user can see all the exercises for the day along with some pictures and description.
+
+#### Customization Screen: 
+This screen allows the user to customize the exercises based on his/her interest, energy and availability.
+
 ## Images
 <img src="images/Home Page.jpeg" alt="homepage_Diagram"/>
 <img src="images/login,signup.jpeg" alt="login_Diagram"/>
