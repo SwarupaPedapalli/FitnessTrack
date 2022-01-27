@@ -38,5 +38,8 @@ This screen allows the user to customize the exercises based on his/her interest
 <img src="images/Home Page.jpeg" alt="homepage_Diagram"/>
 <img src="images/login,signup.jpeg" alt="login_Diagram"/>
 <img src="images/week days.jpeg" alt="weekdays_Diagram"/>
+<img src="images/MONDAY TUESDAY.jpeg" alt="weekdays_Diagram"/>
+<img src="images/WEDNESDAY THURSDAY.jpeg" alt="weekdays_Diagram"/>
+<img src="images/FRIDAY SATURDAY SUNDAY.jpeg" alt="weekdays_Diagram"/>
 <img src="images/ER diagram.jpeg" alt="ER_Diagram"/>
 
