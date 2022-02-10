@@ -5,7 +5,7 @@ Fitness Track web application concentrates on the fitness activities of a user o
 In order to run the project successfully, following needs to be installed
 * Frontend and Backend : C#, .Net
 * HTML CSS
-* SQLite
+* Database : SQLite
 
 ### Authors
 Swarupa Pedapalli - S542301@nwmissouri.edu </br>
