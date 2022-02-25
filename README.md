@@ -19,3 +19,6 @@ Sai Satyanarayana Gullapalli - S542359@nwmissouri.edu
 ### SetUp,Running,Deployment,Testing
 As per the progress of the project, we will slowly update on what to do after cloning and how to proceed, and the required commands to run the project. </br>
 Project will be deployed using heroku server.
+
+### Swagger Link
+[swagger repo](https://github.com/Satyachowdary97/Swagger-Fitness-Track)
