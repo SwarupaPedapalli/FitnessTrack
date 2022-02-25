@@ -23,7 +23,7 @@ Fitness Track web application concentrates on the fitness activities of a user o
 
 ## Screen Flow
 #### Home Screen: 
-This is a screen which shows a header with login and signup button.  A description box which talks about fitness,and displays image of excersise and see more button which directs to the next screen.
+This is a screen which shows a header with login and register button. And few more buttons that directs to other pages
 
 #### Login page: 
 This is a page where user can register and log in to the application.
@@ -32,7 +32,7 @@ This is a page where user can register and log in to the application.
 This screen displays all the week days and corresponding fitness excersises. When user clicks on a particular day, the user will be redirected to the page where user can see all the exercises for the day along with some pictures and description.
 
 #### Customization Screen: 
-This screen allows the user to customize the exercises based on his/her interest, energy and availability.
+This screen allows the user to customize the exercises based on his/her interest, nutrition and goals.
 
 ## Images
 <img src="images/Home Page.jpeg" alt="homepage_Diagram"/>
