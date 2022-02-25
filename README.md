@@ -4,7 +4,7 @@
 
 Fitness Track web application concentrates on the fitness activities of a user on the daily basis. Whenever user logins to the application, it displays workout plans,body weight,goal, nutrition.When the user clicks workout plans user can add name of the plan, which day user excersise, session and activities where user adds their choice of intrests. When user starts the session timer is set. And can pause the timer to rest.User can add their excersises throughout the week and workout.In bodyweight user adds the weight aand user can see the graph.Similarly goal and nutrition is modified by user and the graph is displayed.
 
-### External Requirements
+### Stack
 In order to run the project successfully, following needs to be installed
 * Frontend and Backend : C#, .Net
 * HTML CSS
