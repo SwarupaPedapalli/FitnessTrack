@@ -11,6 +11,9 @@ In order to run the project successfully, following needs to be installed
 Swarupa Pedapalli - S542301@nwmissouri.edu </br>
 Sai Satyanarayana Gullapalli - S542359@nwmissouri.edu
 
+## External Requirements
+• To execute my project on your laptop, first install [Visual Studio](https://visualstudio.microsoft.com/), then ASP.NET and web development, and finally the.NET 5.0 runtime from the individual component store. Finally, download and install the .NET 5.0 SDK.
+
 ### SetUp,Running,Deployment,Testing
 As per the progress of the project, we will slowly update on what to do after cloning and how to proceed, and the required commands to run the project. </br>
 Project will be deployed using heroku server.
