@@ -29,7 +29,7 @@ This is a screen which shows a header with login and register button. And few mo
 This is a page where user can register and log in to the application.
 
 #### Screen for the weekly plan: 
-This screen displays all the week days and corresponding fitness excersises. When user clicks on a particular day, the user will be redirected to the page where user can see all the exercises for the day along with some pictures and description.
+This screen displays all the week days and corresponding fitness excersises. When user clicks on a particular day, the user will be redirected to the page where user can see all the exercises for the day along with additional information like number of sets,quantity and sessions.
 
 #### Customization Screen: 
 This screen allows the user to customize the exercises based on his/her interest, nutrition and goals.
