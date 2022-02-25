@@ -36,9 +36,9 @@ This screen displays all the week days and corresponding fitness excersises. Whe
 This screen allows the user to customize the exercises based on his/her interest, nutrition and goals.
 
 ## Images
-<img src="images/Home Page.jpeg" alt="homepage_Diagram"/>
-<img src="images/login,signup.jpeg" alt="login_Diagram"/>
-<img src="images/week days.jpeg" alt="weekdays_Diagram"/>
+<img src="images/Home Page.png" alt="homepage_Diagram"/>
+<img src="images/Register.png" alt="register_Diagram"/>
+<img src="images/Login Page.png" alt="loginpage_Diagram"/>
 
 <img src="images/MONDAY TUESDAY.jpeg" alt="weekdays_Diagram"/>
 <img src="images/WEDNESDAY THURSDAY.jpeg" alt="weekdays_Diagram"/>
