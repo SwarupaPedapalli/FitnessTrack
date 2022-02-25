@@ -3,13 +3,13 @@
 ## Statement Of Purpose
 
 1. Fitness Track application will be used to track the records of the user.
-2. This is to check whether the user completed his day to day tasks.
-3. User can complete, postpone or schedule the task in their available times.
-4. Once user completes the task, they will be added with their bonus.
+2. User can add his workout plans for the week.
+3. User can add the nutrition, and tracks the goal and body functioning. 
+4. Once user completes the task, they will be added to account and they can review.
 
 ## Vision
 
-Fitness Track web application concentrates on the fitness activities of a user on the daily basis. Whenever user logins to the application, it displays days of the week. Once the user selects the day, it directs the user to that particular scheldued exercises for that day. If the user doesn't have any time or energy to complete the task on that day, they can schedule the task for their next available days and times. User can also customize the level of hardness. If the user completes the exercises on time without postponing it, the user will be rewarded with bonus points and will be notified that the task accomplished.
+Fitness Track web application concentrates on the fitness activities of a user on the daily basis. Whenever user logins to the application, it displays days of the week. Once the user selects the day, it directs the user to that particular scheldued exercises for that day.After user adds required excersises it gets displayed and starts working out and tracking.
 
 ## Functional Requirements
 1.Only authentic user must have the access to the system </br>
