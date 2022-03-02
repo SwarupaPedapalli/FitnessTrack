@@ -9,7 +9,7 @@
 @if (Model.CurrentLogins?.Count > 0)
 {
     <h4>Registered Logins</h4>
-    <th table class="table"></th>
+    <table class="table">
         <tbody>
             @foreach (var login in Model.CurrentLogins)
             {
