@@ -32,3 +32,5 @@ Nunit is done for testing
 [swagger repo](https://github.com/Satyachowdary97/Swagger-Fitness-Track)
 
 [User Guide](https://github.com/Satyachowdary97/fitness_track-doc)
+
+[Test Coverage](https://app.codacy.com/gh/SwarupaPedapalli/FitnessTrack/dashboard?utm_source=github.com&utm_medium=referral&utm_content=SwarupaPedapalli/FitnessTrack&utm_campaign=Badge_Grade)
