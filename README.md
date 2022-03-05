@@ -19,9 +19,14 @@ Sai Satyanarayana Gullapalli - S542359@nwmissouri.edu
 ## Execution of Project
 • To execute my project on your laptop, first install [Visual Studio](https://visualstudio.microsoft.com/), then ASP.NET and web development, and finally the.NET 5.0 runtime from the individual component store. Finally, download and install the .NET 5.0 SDK.
 
-### SetUp,Running,Deployment,Testing
-As per the progress of the project, we will slowly update on what to do after cloning and how to proceed, and the required commands to run the project. </br>
-Project will be deployed using heroku server.
+### SetUp,Running,Deployment
+Following are the requirements to set up the virtual studio after cloning the my repository.
+>In Visual Studio, open the FitnessTrack.sln file  and then debug the file to run the project.
+>In order to deploy we do it heroku. When the changes of code are made push to main repo and then build will start in heroku.
+
+### Testing
+We haven't started testing yet. will start and complete by spring break
+Nunit is done for testing
 
 ### Swagger Link
 [swagger repo](https://github.com/Satyachowdary97/Swagger-Fitness-Track)
