@@ -27,6 +27,8 @@ Following are the requirements to set up the virtual studio after cloning the my
 ### Testing
 <br>We haven't started testing yet. will start and complete by spring break</br>
 Nunit is done for testing
+### Documentation Sites
 
-### Swagger Link
 [swagger repo](https://github.com/Satyachowdary97/Swagger-Fitness-Track)
+
+[User Guide](https://github.com/Satyachowdary97/fitness_track-doc)
