@@ -1,0 +1,55 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<FitnessUser> SignInManager
+@inject UserManager<FitnessUser> UserManager
+
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@if (SignInManager.IsSignedIn(User))
+{
+    <style>
+        #welcomeText{
+            margin:10em 0em 10em 0em;
+        }
+    </style>
+}
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4 m-auto">
+                <div id="welcomeText" class="text-center" style="margin-left:-45px;">
+                    <h1 class="display-4">Welcome To</h1>
+                    <h1 class="text-success"> Fitness Tracker</h1>
+                    @*@if (!SignInManager.IsSignedIn(User))
+                        {
+                            <a class="btn btn-info btn-sm" asp-area="" asp-controller="Workout" asp-action="Summary">Workout Plans</a>
+
+
+                            <a class="btn btn-success btn-sm" asp-area="" asp-controller="Bodyweight" asp-action="Summary">Body Weight</a>
+
+
+                            <a class="btn btn-warning btn-sm" asp-area="" asp-controller="Goal" asp-action="Summary">Goal</a>
+
+
+                            <a class="btn btn-primary btn-sm" asp-area="" asp-controller="Nutrition" asp-action="Summary">Nutrition</a>
+                        }*@
+                </div>
+                <br />
+                @if (!SignInManager.IsSignedIn(User))
+                {
+
+                    <div class="card" style="width:18rem; align-content:center">
+                        <img src="./images/gym.jpg" class="card-img-top" alt="">
+                        <img src="" />
+                        <div class="card-body">
+                            <h5 class="card-title">Fitness Track</h5>
+                            <p class="card-text">Exercise is any bodily activity that enhances or maintains physical fitness and overall health and wellness</p>
+                            <a asp-action="SeeMore" asp-controller="Home" class="btn btn-primary" style="margin-left:80px">See more</a>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
