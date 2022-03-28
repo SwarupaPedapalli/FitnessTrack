@@ -1,0 +1,921 @@
+### YamlMime:ManagedReference
+items:
+- uid: FitnessTracker.ViewModels.EditGoalInputModel
+  commentId: T:FitnessTracker.ViewModels.EditGoalInputModel
+  id: EditGoalInputModel
+  parent: FitnessTracker.ViewModels
+  children:
+  - FitnessTracker.ViewModels.EditGoalInputModel.Activity
+  - FitnessTracker.ViewModels.EditGoalInputModel.Hours
+  - FitnessTracker.ViewModels.EditGoalInputModel.ID
+  - FitnessTracker.ViewModels.EditGoalInputModel.Minutes
+  - FitnessTracker.ViewModels.EditGoalInputModel.Quantity
+  - FitnessTracker.ViewModels.EditGoalInputModel.QuantityUnit
+  - FitnessTracker.ViewModels.EditGoalInputModel.Reps
+  - FitnessTracker.ViewModels.EditGoalInputModel.Seconds
+  - FitnessTracker.ViewModels.EditGoalInputModel.Type
+  - FitnessTracker.ViewModels.EditGoalInputModel.Weight
+  langs:
+  - csharp
+  - vb
+  name: EditGoalInputModel
+  nameWithType: EditGoalInputModel
+  fullName: FitnessTracker.ViewModels.EditGoalInputModel
+  type: Class
+  source:
+    remote:
+      path: ViewModels/EditGoalInputModel.cs
+      branch: main
+      repo: https://github.com/SwarupaPedapalli/FitnessTrack.git
+    id: EditGoalInputModel
+    path: ViewModels/EditGoalInputModel.cs
+    startLine: 8
+  assemblies:
+  - FitnessTracker
+  namespace: FitnessTracker.ViewModels
+  syntax:
+    content: public class EditGoalInputModel
+    content.vb: Public Class EditGoalInputModel
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: FitnessTracker.ViewModels.EditGoalInputModel.ID
+  commentId: P:FitnessTracker.ViewModels.EditGoalInputModel.ID
+  id: ID
+  parent: FitnessTracker.ViewModels.EditGoalInputModel
+  langs:
+  - csharp
+  - vb
+  name: ID
+  nameWithType: EditGoalInputModel.ID
+  fullName: FitnessTracker.ViewModels.EditGoalInputModel.ID
+  type: Property
+  source:
+    remote:
+      path: ViewModels/EditGoalInputModel.cs
+      branch: main
+      repo: https://github.com/SwarupaPedapalli/FitnessTrack.git
+    id: ID
+    path: ViewModels/EditGoalInputModel.cs
+    startLine: 10
+  assemblies:
+  - FitnessTracker
+  namespace: FitnessTracker.ViewModels
+  syntax:
+    content: >-
+      [Range(0, 1.7976931348623157E+308)]
+
+      public int ID { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <Range(0, 1.7976931348623157E+308)>
+
+      Public Property ID As Integer
+  overload: FitnessTracker.ViewModels.EditGoalInputModel.ID*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RangeAttribute
+    ctor: System.ComponentModel.DataAnnotations.RangeAttribute.#ctor(System.Double,System.Double)
+    arguments:
+    - type: System.Double
+      value: 0
+    - type: System.Double
+      value: 1.7976931348623157E+308
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FitnessTracker.ViewModels.EditGoalInputModel.Activity
+  commentId: P:FitnessTracker.ViewModels.EditGoalInputModel.Activity
+  id: Activity
+  parent: FitnessTracker.ViewModels.EditGoalInputModel
+  langs:
+  - csharp
+  - vb
+  name: Activity
+  nameWithType: EditGoalInputModel.Activity
+  fullName: FitnessTracker.ViewModels.EditGoalInputModel.Activity
+  type: Property
+  source:
+    remote:
+      path: ViewModels/EditGoalInputModel.cs
+      branch: main
+      repo: https://github.com/SwarupaPedapalli/FitnessTrack.git
+    id: Activity
+    path: ViewModels/EditGoalInputModel.cs
+    startLine: 12
+  assemblies:
+  - FitnessTracker
+  namespace: FitnessTracker.ViewModels
+  syntax:
+    content: >-
+      [Required]
+
+      [MaxLength(30)]
+
+      public string Activity { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Required>
+
+      <MaxLength(30)>
+
+      Public Property Activity As String
+  overload: FitnessTracker.ViewModels.EditGoalInputModel.Activity*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+  - type: System.ComponentModel.DataAnnotations.MaxLengthAttribute
+    ctor: System.ComponentModel.DataAnnotations.MaxLengthAttribute.#ctor(System.Int32)
+    arguments:
+    - type: System.Int32
+      value: 30
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FitnessTracker.ViewModels.EditGoalInputModel.Type
+  commentId: P:FitnessTracker.ViewModels.EditGoalInputModel.Type
+  id: Type
+  parent: FitnessTracker.ViewModels.EditGoalInputModel
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: EditGoalInputModel.Type
+  fullName: FitnessTracker.ViewModels.EditGoalInputModel.Type
+  type: Property
+  source:
+    remote:
+      path: ViewModels/EditGoalInputModel.cs
+      branch: main
+      repo: https://github.com/SwarupaPedapalli/FitnessTrack.git
+    id: Type
+    path: ViewModels/EditGoalInputModel.cs
+    startLine: 15
+  assemblies:
+  - FitnessTracker
+  namespace: FitnessTracker.ViewModels
+  syntax:
+    content: >-
+      [Required]
+
+      [MaxLength(20)]
+
+      public string Type { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Required>
+
+      <MaxLength(20)>
+
+      Public Property Type As String
+  overload: FitnessTracker.ViewModels.EditGoalInputModel.Type*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+  - type: System.ComponentModel.DataAnnotations.MaxLengthAttribute
+    ctor: System.ComponentModel.DataAnnotations.MaxLengthAttribute.#ctor(System.Int32)
+    arguments:
+    - type: System.Int32
+      value: 20
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FitnessTracker.ViewModels.EditGoalInputModel.Weight
+  commentId: P:FitnessTracker.ViewModels.EditGoalInputModel.Weight
+  id: Weight
+  parent: FitnessTracker.ViewModels.EditGoalInputModel
+  langs:
+  - csharp
+  - vb
+  name: Weight
+  nameWithType: EditGoalInputModel.Weight
+  fullName: FitnessTracker.ViewModels.EditGoalInputModel.Weight
+  type: Property
+  source:
+    remote:
+      path: ViewModels/EditGoalInputModel.cs
+      branch: main
+      repo: https://github.com/SwarupaPedapalli/FitnessTrack.git
+    id: Weight
+    path: ViewModels/EditGoalInputModel.cs
+    startLine: 18
+  assemblies:
+  - FitnessTracker
+  namespace: FitnessTracker.ViewModels
+  syntax:
+    content: >-
+      [Range(0, 500)]
+
+      public float Weight { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: >-
+      <Range(0, 500)>
+
+      Public Property Weight As Single
+  overload: FitnessTracker.ViewModels.EditGoalInputModel.Weight*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RangeAttribute
+    ctor: System.ComponentModel.DataAnnotations.RangeAttribute.#ctor(System.Int32,System.Int32)
+    arguments:
+    - type: System.Int32
+      value: 0
+    - type: System.Int32
+      value: 500
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FitnessTracker.ViewModels.EditGoalInputModel.Reps
+  commentId: P:FitnessTracker.ViewModels.EditGoalInputModel.Reps
+  id: Reps
+  parent: FitnessTracker.ViewModels.EditGoalInputModel
+  langs:
+  - csharp
+  - vb
+  name: Reps
+  nameWithType: EditGoalInputModel.Reps
+  fullName: FitnessTracker.ViewModels.EditGoalInputModel.Reps
+  type: Property
+  source:
+    remote:
+      path: ViewModels/EditGoalInputModel.cs
+      branch: main
+      repo: https://github.com/SwarupaPedapalli/FitnessTrack.git
+    id: Reps
+    path: ViewModels/EditGoalInputModel.cs
+    startLine: 20
+  assemblies:
+  - FitnessTracker
+  namespace: FitnessTracker.ViewModels
+  syntax:
+    content: >-
+      [Range(0, 100)]
+
+      public int Reps { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <Range(0, 100)>
+
+      Public Property Reps As Integer
+  overload: FitnessTracker.ViewModels.EditGoalInputModel.Reps*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RangeAttribute
+    ctor: System.ComponentModel.DataAnnotations.RangeAttribute.#ctor(System.Int32,System.Int32)
+    arguments:
+    - type: System.Int32
+      value: 0
+    - type: System.Int32
+      value: 100
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FitnessTracker.ViewModels.EditGoalInputModel.Hours
+  commentId: P:FitnessTracker.ViewModels.EditGoalInputModel.Hours
+  id: Hours
+  parent: FitnessTracker.ViewModels.EditGoalInputModel
+  langs:
+  - csharp
+  - vb
+  name: Hours
+  nameWithType: EditGoalInputModel.Hours
+  fullName: FitnessTracker.ViewModels.EditGoalInputModel.Hours
+  type: Property
+  source:
+    remote:
+      path: ViewModels/EditGoalInputModel.cs
+      branch: main
+      repo: https://github.com/SwarupaPedapalli/FitnessTrack.git
+    id: Hours
+    path: ViewModels/EditGoalInputModel.cs
+    startLine: 22
+  assemblies:
+  - FitnessTracker
+  namespace: FitnessTracker.ViewModels
+  syntax:
+    content: >-
+      [Range(0, 24)]
+
+      public int Hours { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <Range(0, 24)>
+
+      Public Property Hours As Integer
+  overload: FitnessTracker.ViewModels.EditGoalInputModel.Hours*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RangeAttribute
+    ctor: System.ComponentModel.DataAnnotations.RangeAttribute.#ctor(System.Int32,System.Int32)
+    arguments:
+    - type: System.Int32
+      value: 0
+    - type: System.Int32
+      value: 24
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FitnessTracker.ViewModels.EditGoalInputModel.Minutes
+  commentId: P:FitnessTracker.ViewModels.EditGoalInputModel.Minutes
+  id: Minutes
+  parent: FitnessTracker.ViewModels.EditGoalInputModel
+  langs:
+  - csharp
+  - vb
+  name: Minutes
+  nameWithType: EditGoalInputModel.Minutes
+  fullName: FitnessTracker.ViewModels.EditGoalInputModel.Minutes
+  type: Property
+  source:
+    remote:
+      path: ViewModels/EditGoalInputModel.cs
+      branch: main
+      repo: https://github.com/SwarupaPedapalli/FitnessTrack.git
+    id: Minutes
+    path: ViewModels/EditGoalInputModel.cs
+    startLine: 24
+  assemblies:
+  - FitnessTracker
+  namespace: FitnessTracker.ViewModels
+  syntax:
+    content: >-
+      [Range(0, 60)]
+
+      public int Minutes { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <Range(0, 60)>
+
+      Public Property Minutes As Integer
+  overload: FitnessTracker.ViewModels.EditGoalInputModel.Minutes*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RangeAttribute
+    ctor: System.ComponentModel.DataAnnotations.RangeAttribute.#ctor(System.Int32,System.Int32)
+    arguments:
+    - type: System.Int32
+      value: 0
+    - type: System.Int32
+      value: 60
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FitnessTracker.ViewModels.EditGoalInputModel.Seconds
+  commentId: P:FitnessTracker.ViewModels.EditGoalInputModel.Seconds
+  id: Seconds
+  parent: FitnessTracker.ViewModels.EditGoalInputModel
+  langs:
+  - csharp
+  - vb
+  name: Seconds
+  nameWithType: EditGoalInputModel.Seconds
+  fullName: FitnessTracker.ViewModels.EditGoalInputModel.Seconds
+  type: Property
+  source:
+    remote:
+      path: ViewModels/EditGoalInputModel.cs
+      branch: main
+      repo: https://github.com/SwarupaPedapalli/FitnessTrack.git
+    id: Seconds
+    path: ViewModels/EditGoalInputModel.cs
+    startLine: 26
+  assemblies:
+  - FitnessTracker
+  namespace: FitnessTracker.ViewModels
+  syntax:
+    content: >-
+      [Range(0, 60)]
+
+      public int Seconds { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <Range(0, 60)>
+
+      Public Property Seconds As Integer
+  overload: FitnessTracker.ViewModels.EditGoalInputModel.Seconds*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RangeAttribute
+    ctor: System.ComponentModel.DataAnnotations.RangeAttribute.#ctor(System.Int32,System.Int32)
+    arguments:
+    - type: System.Int32
+      value: 0
+    - type: System.Int32
+      value: 60
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FitnessTracker.ViewModels.EditGoalInputModel.Quantity
+  commentId: P:FitnessTracker.ViewModels.EditGoalInputModel.Quantity
+  id: Quantity
+  parent: FitnessTracker.ViewModels.EditGoalInputModel
+  langs:
+  - csharp
+  - vb
+  name: Quantity
+  nameWithType: EditGoalInputModel.Quantity
+  fullName: FitnessTracker.ViewModels.EditGoalInputModel.Quantity
+  type: Property
+  source:
+    remote:
+      path: ViewModels/EditGoalInputModel.cs
+      branch: main
+      repo: https://github.com/SwarupaPedapalli/FitnessTrack.git
+    id: Quantity
+    path: ViewModels/EditGoalInputModel.cs
+    startLine: 28
+  assemblies:
+  - FitnessTracker
+  namespace: FitnessTracker.ViewModels
+  syntax:
+    content: >-
+      [Range(0, 1.7976931348623157E+308)]
+
+      public float Quantity { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: >-
+      <Range(0, 1.7976931348623157E+308)>
+
+      Public Property Quantity As Single
+  overload: FitnessTracker.ViewModels.EditGoalInputModel.Quantity*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RangeAttribute
+    ctor: System.ComponentModel.DataAnnotations.RangeAttribute.#ctor(System.Double,System.Double)
+    arguments:
+    - type: System.Double
+      value: 0
+    - type: System.Double
+      value: 1.7976931348623157E+308
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FitnessTracker.ViewModels.EditGoalInputModel.QuantityUnit
+  commentId: P:FitnessTracker.ViewModels.EditGoalInputModel.QuantityUnit
+  id: QuantityUnit
+  parent: FitnessTracker.ViewModels.EditGoalInputModel
+  langs:
+  - csharp
+  - vb
+  name: QuantityUnit
+  nameWithType: EditGoalInputModel.QuantityUnit
+  fullName: FitnessTracker.ViewModels.EditGoalInputModel.QuantityUnit
+  type: Property
+  source:
+    remote:
+      path: ViewModels/EditGoalInputModel.cs
+      branch: main
+      repo: https://github.com/SwarupaPedapalli/FitnessTrack.git
+    id: QuantityUnit
+    path: ViewModels/EditGoalInputModel.cs
+    startLine: 30
+  assemblies:
+  - FitnessTracker
+  namespace: FitnessTracker.ViewModels
+  syntax:
+    content: >-
+      [MaxLength(30)]
+
+      public string QuantityUnit { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <MaxLength(30)>
+
+      Public Property QuantityUnit As String
+  overload: FitnessTracker.ViewModels.EditGoalInputModel.QuantityUnit*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.MaxLengthAttribute
+    ctor: System.ComponentModel.DataAnnotations.MaxLengthAttribute.#ctor(System.Int32)
+    arguments:
+    - type: System.Int32
+      value: 30
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: FitnessTracker.ViewModels
+  commentId: N:FitnessTracker.ViewModels
+  name: FitnessTracker.ViewModels
+  nameWithType: FitnessTracker.ViewModels
+  fullName: FitnessTracker.ViewModels
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: FitnessTracker.ViewModels.EditGoalInputModel.ID*
+  commentId: Overload:FitnessTracker.ViewModels.EditGoalInputModel.ID
+  name: ID
+  nameWithType: EditGoalInputModel.ID
+  fullName: FitnessTracker.ViewModels.EditGoalInputModel.ID
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: FitnessTracker.ViewModels.EditGoalInputModel.Activity*
+  commentId: Overload:FitnessTracker.ViewModels.EditGoalInputModel.Activity
+  name: Activity
+  nameWithType: EditGoalInputModel.Activity
+  fullName: FitnessTracker.ViewModels.EditGoalInputModel.Activity
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: FitnessTracker.ViewModels.EditGoalInputModel.Type*
+  commentId: Overload:FitnessTracker.ViewModels.EditGoalInputModel.Type
+  name: Type
+  nameWithType: EditGoalInputModel.Type
+  fullName: FitnessTracker.ViewModels.EditGoalInputModel.Type
+- uid: FitnessTracker.ViewModels.EditGoalInputModel.Weight*
+  commentId: Overload:FitnessTracker.ViewModels.EditGoalInputModel.Weight
+  name: Weight
+  nameWithType: EditGoalInputModel.Weight
+  fullName: FitnessTracker.ViewModels.EditGoalInputModel.Weight
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: FitnessTracker.ViewModels.EditGoalInputModel.Reps*
+  commentId: Overload:FitnessTracker.ViewModels.EditGoalInputModel.Reps
+  name: Reps
+  nameWithType: EditGoalInputModel.Reps
+  fullName: FitnessTracker.ViewModels.EditGoalInputModel.Reps
+- uid: FitnessTracker.ViewModels.EditGoalInputModel.Hours*
+  commentId: Overload:FitnessTracker.ViewModels.EditGoalInputModel.Hours
+  name: Hours
+  nameWithType: EditGoalInputModel.Hours
+  fullName: FitnessTracker.ViewModels.EditGoalInputModel.Hours
+- uid: FitnessTracker.ViewModels.EditGoalInputModel.Minutes*
+  commentId: Overload:FitnessTracker.ViewModels.EditGoalInputModel.Minutes
+  name: Minutes
+  nameWithType: EditGoalInputModel.Minutes
+  fullName: FitnessTracker.ViewModels.EditGoalInputModel.Minutes
+- uid: FitnessTracker.ViewModels.EditGoalInputModel.Seconds*
+  commentId: Overload:FitnessTracker.ViewModels.EditGoalInputModel.Seconds
+  name: Seconds
+  nameWithType: EditGoalInputModel.Seconds
+  fullName: FitnessTracker.ViewModels.EditGoalInputModel.Seconds
+- uid: FitnessTracker.ViewModels.EditGoalInputModel.Quantity*
+  commentId: Overload:FitnessTracker.ViewModels.EditGoalInputModel.Quantity
+  name: Quantity
+  nameWithType: EditGoalInputModel.Quantity
+  fullName: FitnessTracker.ViewModels.EditGoalInputModel.Quantity
+- uid: FitnessTracker.ViewModels.EditGoalInputModel.QuantityUnit*
+  commentId: Overload:FitnessTracker.ViewModels.EditGoalInputModel.QuantityUnit
+  name: QuantityUnit
+  nameWithType: EditGoalInputModel.QuantityUnit
+  fullName: FitnessTracker.ViewModels.EditGoalInputModel.QuantityUnit

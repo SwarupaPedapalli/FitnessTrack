@@ -1,0 +1,459 @@
+### YamlMime:ManagedReference
+items:
+- uid: FitnessTracker.ViewModels.GoalViewModel
+  commentId: T:FitnessTracker.ViewModels.GoalViewModel
+  id: GoalViewModel
+  parent: FitnessTracker.ViewModels
+  children:
+  - FitnessTracker.ViewModels.GoalViewModel.Goal
+  - FitnessTracker.ViewModels.GoalViewModel.Progress
+  langs:
+  - csharp
+  - vb
+  name: GoalViewModel
+  nameWithType: GoalViewModel
+  fullName: FitnessTracker.ViewModels.GoalViewModel
+  type: Class
+  source:
+    remote:
+      path: ViewModels/GoalViewModel.cs
+      branch: main
+      repo: https://github.com/SwarupaPedapalli/FitnessTrack.git
+    id: GoalViewModel
+    path: ViewModels/GoalViewModel.cs
+    startLine: 8
+  assemblies:
+  - FitnessTracker
+  namespace: FitnessTracker.ViewModels
+  syntax:
+    content: public class GoalViewModel
+    content.vb: Public Class GoalViewModel
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: FitnessTracker.ViewModels.GoalViewModel.Goal
+  commentId: P:FitnessTracker.ViewModels.GoalViewModel.Goal
+  id: Goal
+  parent: FitnessTracker.ViewModels.GoalViewModel
+  langs:
+  - csharp
+  - vb
+  name: Goal
+  nameWithType: GoalViewModel.Goal
+  fullName: FitnessTracker.ViewModels.GoalViewModel.Goal
+  type: Property
+  source:
+    remote:
+      path: ViewModels/GoalViewModel.cs
+      branch: main
+      repo: https://github.com/SwarupaPedapalli/FitnessTrack.git
+    id: Goal
+    path: ViewModels/GoalViewModel.cs
+    startLine: 10
+  assemblies:
+  - FitnessTracker
+  namespace: FitnessTracker.ViewModels
+  syntax:
+    content: public Goal Goal { get; set; }
+    parameters: []
+    return:
+      type: FitnessTracker.Models.Goal
+    content.vb: Public Property Goal As Goal
+  overload: FitnessTracker.ViewModels.GoalViewModel.Goal*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FitnessTracker.ViewModels.GoalViewModel.Progress
+  commentId: P:FitnessTracker.ViewModels.GoalViewModel.Progress
+  id: Progress
+  parent: FitnessTracker.ViewModels.GoalViewModel
+  langs:
+  - csharp
+  - vb
+  name: Progress
+  nameWithType: GoalViewModel.Progress
+  fullName: FitnessTracker.ViewModels.GoalViewModel.Progress
+  type: Property
+  source:
+    remote:
+      path: ViewModels/GoalViewModel.cs
+      branch: main
+      repo: https://github.com/SwarupaPedapalli/FitnessTrack.git
+    id: Progress
+    path: ViewModels/GoalViewModel.cs
+    startLine: 11
+  assemblies:
+  - FitnessTracker
+  namespace: FitnessTracker.ViewModels
+  syntax:
+    content: public GoalProgress[] Progress { get; set; }
+    parameters: []
+    return:
+      type: FitnessTracker.Models.GoalProgress[]
+    content.vb: Public Property Progress As GoalProgress()
+  overload: FitnessTracker.ViewModels.GoalViewModel.Progress*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: FitnessTracker.ViewModels
+  commentId: N:FitnessTracker.ViewModels
+  name: FitnessTracker.ViewModels
+  nameWithType: FitnessTracker.ViewModels
+  fullName: FitnessTracker.ViewModels
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: FitnessTracker.ViewModels.GoalViewModel.Goal*
+  commentId: Overload:FitnessTracker.ViewModels.GoalViewModel.Goal
+  name: Goal
+  nameWithType: GoalViewModel.Goal
+  fullName: FitnessTracker.ViewModels.GoalViewModel.Goal
+- uid: FitnessTracker.Models.Goal
+  commentId: T:FitnessTracker.Models.Goal
+  parent: FitnessTracker.Models
+  name: Goal
+  nameWithType: Goal
+  fullName: FitnessTracker.Models.Goal
+- uid: FitnessTracker.Models
+  commentId: N:FitnessTracker.Models
+  name: FitnessTracker.Models
+  nameWithType: FitnessTracker.Models
+  fullName: FitnessTracker.Models
+- uid: FitnessTracker.ViewModels.GoalViewModel.Progress*
+  commentId: Overload:FitnessTracker.ViewModels.GoalViewModel.Progress
+  name: Progress
+  nameWithType: GoalViewModel.Progress
+  fullName: FitnessTracker.ViewModels.GoalViewModel.Progress
+- uid: FitnessTracker.Models.GoalProgress[]
+  isExternal: true
+  name: GoalProgress[]
+  nameWithType: GoalProgress[]
+  fullName: FitnessTracker.Models.GoalProgress[]
+  nameWithType.vb: GoalProgress()
+  fullName.vb: FitnessTracker.Models.GoalProgress()
+  name.vb: GoalProgress()
+  spec.csharp:
+  - uid: FitnessTracker.Models.GoalProgress
+    name: GoalProgress
+    nameWithType: GoalProgress
+    fullName: FitnessTracker.Models.GoalProgress
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: FitnessTracker.Models.GoalProgress
+    name: GoalProgress
+    nameWithType: GoalProgress
+    fullName: FitnessTracker.Models.GoalProgress
+  - name: ()
+    nameWithType: ()
+    fullName: ()

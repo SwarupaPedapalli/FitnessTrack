@@ -1,0 +1,47 @@
+### YamlMime:ManagedReference
+items:
+- uid: FitnessTracker.ViewModels
+  commentId: N:FitnessTracker.ViewModels
+  id: FitnessTracker.ViewModels
+  children:
+  - FitnessTracker.ViewModels.AddGoalProgressInputModel
+  - FitnessTracker.ViewModels.BodyweightSummaryViewModel
+  - FitnessTracker.ViewModels.EditGoalInputModel
+  - FitnessTracker.ViewModels.GoalViewModel
+  langs:
+  - csharp
+  - vb
+  name: FitnessTracker.ViewModels
+  nameWithType: FitnessTracker.ViewModels
+  fullName: FitnessTracker.ViewModels
+  type: Namespace
+  assemblies:
+  - FitnessTracker
+references:
+- uid: FitnessTracker.ViewModels.AddGoalProgressInputModel
+  commentId: T:FitnessTracker.ViewModels.AddGoalProgressInputModel
+  parent: FitnessTracker.ViewModels
+  name: AddGoalProgressInputModel
+  nameWithType: AddGoalProgressInputModel
+  fullName: FitnessTracker.ViewModels.AddGoalProgressInputModel
+- uid: FitnessTracker.ViewModels.BodyweightSummaryViewModel
+  commentId: T:FitnessTracker.ViewModels.BodyweightSummaryViewModel
+  name: BodyweightSummaryViewModel
+  nameWithType: BodyweightSummaryViewModel
+  fullName: FitnessTracker.ViewModels.BodyweightSummaryViewModel
+- uid: FitnessTracker.ViewModels.EditGoalInputModel
+  commentId: T:FitnessTracker.ViewModels.EditGoalInputModel
+  parent: FitnessTracker.ViewModels
+  name: EditGoalInputModel
+  nameWithType: EditGoalInputModel
+  fullName: FitnessTracker.ViewModels.EditGoalInputModel
+- uid: FitnessTracker.ViewModels.GoalViewModel
+  commentId: T:FitnessTracker.ViewModels.GoalViewModel
+  name: GoalViewModel
+  nameWithType: GoalViewModel
+  fullName: FitnessTracker.ViewModels.GoalViewModel
+- uid: FitnessTracker.ViewModels
+  commentId: N:FitnessTracker.ViewModels
+  name: FitnessTracker.ViewModels
+  nameWithType: FitnessTracker.ViewModels
+  fullName: FitnessTracker.ViewModels

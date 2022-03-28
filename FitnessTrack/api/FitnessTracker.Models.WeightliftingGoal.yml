@@ -1,0 +1,468 @@
+### YamlMime:ManagedReference
+items:
+- uid: FitnessTracker.Models.WeightliftingGoal
+  commentId: T:FitnessTracker.Models.WeightliftingGoal
+  id: WeightliftingGoal
+  parent: FitnessTracker.Models
+  children:
+  - FitnessTracker.Models.WeightliftingGoal.Reps
+  - FitnessTracker.Models.WeightliftingGoal.Weight
+  langs:
+  - csharp
+  - vb
+  name: WeightliftingGoal
+  nameWithType: WeightliftingGoal
+  fullName: FitnessTracker.Models.WeightliftingGoal
+  type: Class
+  source:
+    remote:
+      path: Models/WeightliftingGoal.cs
+      branch: main
+      repo: https://github.com/SwarupaPedapalli/FitnessTrack.git
+    id: WeightliftingGoal
+    path: Models/WeightliftingGoal.cs
+    startLine: 7
+  assemblies:
+  - FitnessTracker
+  namespace: FitnessTracker.Models
+  syntax:
+    content: 'public class WeightliftingGoal : Goal'
+    content.vb: >-
+      Public Class WeightliftingGoal
+          Inherits Goal
+  inheritance:
+  - System.Object
+  - FitnessTracker.Models.Goal
+  inheritedMembers:
+  - FitnessTracker.Models.Goal.ID
+  - FitnessTracker.Models.Goal.User
+  - FitnessTracker.Models.Goal.Activity
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: FitnessTracker.Models.WeightliftingGoal.Weight
+  commentId: P:FitnessTracker.Models.WeightliftingGoal.Weight
+  id: Weight
+  parent: FitnessTracker.Models.WeightliftingGoal
+  langs:
+  - csharp
+  - vb
+  name: Weight
+  nameWithType: WeightliftingGoal.Weight
+  fullName: FitnessTracker.Models.WeightliftingGoal.Weight
+  type: Property
+  source:
+    remote:
+      path: Models/WeightliftingGoal.cs
+      branch: main
+      repo: https://github.com/SwarupaPedapalli/FitnessTrack.git
+    id: Weight
+    path: Models/WeightliftingGoal.cs
+    startLine: 9
+  assemblies:
+  - FitnessTracker
+  namespace: FitnessTracker.Models
+  syntax:
+    content: public float Weight { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Weight As Single
+  overload: FitnessTracker.Models.WeightliftingGoal.Weight*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FitnessTracker.Models.WeightliftingGoal.Reps
+  commentId: P:FitnessTracker.Models.WeightliftingGoal.Reps
+  id: Reps
+  parent: FitnessTracker.Models.WeightliftingGoal
+  langs:
+  - csharp
+  - vb
+  name: Reps
+  nameWithType: WeightliftingGoal.Reps
+  fullName: FitnessTracker.Models.WeightliftingGoal.Reps
+  type: Property
+  source:
+    remote:
+      path: Models/WeightliftingGoal.cs
+      branch: main
+      repo: https://github.com/SwarupaPedapalli/FitnessTrack.git
+    id: Reps
+    path: Models/WeightliftingGoal.cs
+    startLine: 10
+  assemblies:
+  - FitnessTracker
+  namespace: FitnessTracker.Models
+  syntax:
+    content: public int Reps { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Reps As Integer
+  overload: FitnessTracker.Models.WeightliftingGoal.Reps*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: FitnessTracker.Models
+  commentId: N:FitnessTracker.Models
+  name: FitnessTracker.Models
+  nameWithType: FitnessTracker.Models
+  fullName: FitnessTracker.Models
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: FitnessTracker.Models.Goal
+  commentId: T:FitnessTracker.Models.Goal
+  parent: FitnessTracker.Models
+  name: Goal
+  nameWithType: Goal
+  fullName: FitnessTracker.Models.Goal
+- uid: FitnessTracker.Models.Goal.ID
+  commentId: P:FitnessTracker.Models.Goal.ID
+  parent: FitnessTracker.Models.Goal
+  name: ID
+  nameWithType: Goal.ID
+  fullName: FitnessTracker.Models.Goal.ID
+- uid: FitnessTracker.Models.Goal.User
+  commentId: P:FitnessTracker.Models.Goal.User
+  parent: FitnessTracker.Models.Goal
+  name: User
+  nameWithType: Goal.User
+  fullName: FitnessTracker.Models.Goal.User
+- uid: FitnessTracker.Models.Goal.Activity
+  commentId: P:FitnessTracker.Models.Goal.Activity
+  parent: FitnessTracker.Models.Goal
+  name: Activity
+  nameWithType: Goal.Activity
+  fullName: FitnessTracker.Models.Goal.Activity
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: FitnessTracker.Models.WeightliftingGoal.Weight*
+  commentId: Overload:FitnessTracker.Models.WeightliftingGoal.Weight
+  name: Weight
+  nameWithType: WeightliftingGoal.Weight
+  fullName: FitnessTracker.Models.WeightliftingGoal.Weight
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: FitnessTracker.Models.WeightliftingGoal.Reps*
+  commentId: Overload:FitnessTracker.Models.WeightliftingGoal.Reps
+  name: Reps
+  nameWithType: WeightliftingGoal.Reps
+  fullName: FitnessTracker.Models.WeightliftingGoal.Reps
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

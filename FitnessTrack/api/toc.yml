@@ -1,0 +1,193 @@
+### YamlMime:TableOfContent
+- uid: FitnessTracker
+  name: FitnessTracker
+  items:
+  - uid: FitnessTracker.Program
+    name: Program
+  - uid: FitnessTracker.Startup
+    name: Startup
+- uid: FitnessTracker.Areas.Identity
+  name: FitnessTracker.Areas.Identity
+  items:
+  - uid: FitnessTracker.Areas.Identity.IdentityHostingStartup
+    name: IdentityHostingStartup
+- uid: FitnessTracker.Areas.Identity.Pages
+  name: FitnessTracker.Areas.Identity.Pages
+  items:
+  - uid: FitnessTracker.Areas.Identity.Pages.ErrorModel
+    name: ErrorModel
+- uid: FitnessTracker.Areas.Identity.Pages.Account
+  name: FitnessTracker.Areas.Identity.Pages.Account
+  items:
+  - uid: FitnessTracker.Areas.Identity.Pages.Account.AccessDeniedModel
+    name: AccessDeniedModel
+  - uid: FitnessTracker.Areas.Identity.Pages.Account.ConfirmEmailChangeModel
+    name: ConfirmEmailChangeModel
+  - uid: FitnessTracker.Areas.Identity.Pages.Account.ConfirmEmailModel
+    name: ConfirmEmailModel
+  - uid: FitnessTracker.Areas.Identity.Pages.Account.ExternalLoginModel
+    name: ExternalLoginModel
+  - uid: FitnessTracker.Areas.Identity.Pages.Account.ExternalLoginModel.InputModel
+    name: ExternalLoginModel.InputModel
+  - uid: FitnessTracker.Areas.Identity.Pages.Account.ForgotPasswordConfirmation
+    name: ForgotPasswordConfirmation
+  - uid: FitnessTracker.Areas.Identity.Pages.Account.ForgotPasswordModel
+    name: ForgotPasswordModel
+  - uid: FitnessTracker.Areas.Identity.Pages.Account.ForgotPasswordModel.InputModel
+    name: ForgotPasswordModel.InputModel
+  - uid: FitnessTracker.Areas.Identity.Pages.Account.LockoutModel
+    name: LockoutModel
+  - uid: FitnessTracker.Areas.Identity.Pages.Account.LoginModel
+    name: LoginModel
+  - uid: FitnessTracker.Areas.Identity.Pages.Account.LoginModel.InputModel
+    name: LoginModel.InputModel
+  - uid: FitnessTracker.Areas.Identity.Pages.Account.LoginWith2faModel
+    name: LoginWith2faModel
+  - uid: FitnessTracker.Areas.Identity.Pages.Account.LoginWith2faModel.InputModel
+    name: LoginWith2faModel.InputModel
+  - uid: FitnessTracker.Areas.Identity.Pages.Account.LoginWithRecoveryCodeModel
+    name: LoginWithRecoveryCodeModel
+  - uid: FitnessTracker.Areas.Identity.Pages.Account.LoginWithRecoveryCodeModel.InputModel
+    name: LoginWithRecoveryCodeModel.InputModel
+  - uid: FitnessTracker.Areas.Identity.Pages.Account.LogoutModel
+    name: LogoutModel
+  - uid: FitnessTracker.Areas.Identity.Pages.Account.RegisterConfirmationModel
+    name: RegisterConfirmationModel
+  - uid: FitnessTracker.Areas.Identity.Pages.Account.RegisterModel
+    name: RegisterModel
+  - uid: FitnessTracker.Areas.Identity.Pages.Account.RegisterModel.InputModel
+    name: RegisterModel.InputModel
+  - uid: FitnessTracker.Areas.Identity.Pages.Account.ResetPasswordConfirmationModel
+    name: ResetPasswordConfirmationModel
+  - uid: FitnessTracker.Areas.Identity.Pages.Account.ResetPasswordModel
+    name: ResetPasswordModel
+  - uid: FitnessTracker.Areas.Identity.Pages.Account.ResetPasswordModel.InputModel
+    name: ResetPasswordModel.InputModel
+- uid: FitnessTracker.Areas.Identity.Pages.Account.Manage
+  name: FitnessTracker.Areas.Identity.Pages.Account.Manage
+  items:
+  - uid: FitnessTracker.Areas.Identity.Pages.Account.Manage.ChangePasswordModel
+    name: ChangePasswordModel
+  - uid: FitnessTracker.Areas.Identity.Pages.Account.Manage.ChangePasswordModel.InputModel
+    name: ChangePasswordModel.InputModel
+  - uid: FitnessTracker.Areas.Identity.Pages.Account.Manage.DeletePersonalDataModel
+    name: DeletePersonalDataModel
+  - uid: FitnessTracker.Areas.Identity.Pages.Account.Manage.DeletePersonalDataModel.InputModel
+    name: DeletePersonalDataModel.InputModel
+  - uid: FitnessTracker.Areas.Identity.Pages.Account.Manage.Disable2faModel
+    name: Disable2faModel
+  - uid: FitnessTracker.Areas.Identity.Pages.Account.Manage.DownloadPersonalDataModel
+    name: DownloadPersonalDataModel
+  - uid: FitnessTracker.Areas.Identity.Pages.Account.Manage.EmailModel
+    name: EmailModel
+  - uid: FitnessTracker.Areas.Identity.Pages.Account.Manage.EmailModel.InputModel
+    name: EmailModel.InputModel
+  - uid: FitnessTracker.Areas.Identity.Pages.Account.Manage.EnableAuthenticatorModel
+    name: EnableAuthenticatorModel
+  - uid: FitnessTracker.Areas.Identity.Pages.Account.Manage.EnableAuthenticatorModel.InputModel
+    name: EnableAuthenticatorModel.InputModel
+  - uid: FitnessTracker.Areas.Identity.Pages.Account.Manage.ExternalLoginsModel
+    name: ExternalLoginsModel
+  - uid: FitnessTracker.Areas.Identity.Pages.Account.Manage.GenerateRecoveryCodesModel
+    name: GenerateRecoveryCodesModel
+  - uid: FitnessTracker.Areas.Identity.Pages.Account.Manage.IndexModel
+    name: IndexModel
+  - uid: FitnessTracker.Areas.Identity.Pages.Account.Manage.IndexModel.InputModel
+    name: IndexModel.InputModel
+  - uid: FitnessTracker.Areas.Identity.Pages.Account.Manage.ManageNavPages
+    name: ManageNavPages
+  - uid: FitnessTracker.Areas.Identity.Pages.Account.Manage.PersonalDataModel
+    name: PersonalDataModel
+  - uid: FitnessTracker.Areas.Identity.Pages.Account.Manage.ResetAuthenticatorModel
+    name: ResetAuthenticatorModel
+  - uid: FitnessTracker.Areas.Identity.Pages.Account.Manage.SetPasswordModel
+    name: SetPasswordModel
+  - uid: FitnessTracker.Areas.Identity.Pages.Account.Manage.SetPasswordModel.InputModel
+    name: SetPasswordModel.InputModel
+  - uid: FitnessTracker.Areas.Identity.Pages.Account.Manage.ShowRecoveryCodesModel
+    name: ShowRecoveryCodesModel
+  - uid: FitnessTracker.Areas.Identity.Pages.Account.Manage.TwoFactorAuthenticationModel
+    name: TwoFactorAuthenticationModel
+- uid: FitnessTracker.Controllers
+  name: FitnessTracker.Controllers
+  items:
+  - uid: FitnessTracker.Controllers.BodyweightController
+    name: BodyweightController
+  - uid: FitnessTracker.Controllers.GoalController
+    name: GoalController
+  - uid: FitnessTracker.Controllers.HomeController
+    name: HomeController
+  - uid: FitnessTracker.Controllers.NewFoodModel
+    name: NewFoodModel
+  - uid: FitnessTracker.Controllers.NutritionController
+    name: NutritionController
+  - uid: FitnessTracker.Controllers.NutritionSummaryModel
+    name: NutritionSummaryModel
+  - uid: FitnessTracker.Controllers.WorkoutController
+    name: WorkoutController
+- uid: FitnessTracker.Data
+  name: FitnessTracker.Data
+  items:
+  - uid: FitnessTracker.Data.ApplicationDbContext
+    name: ApplicationDbContext
+  - uid: FitnessTracker.Data.BodyweightEFStorageService
+    name: BodyweightEFStorageService
+  - uid: FitnessTracker.Data.GoalEFStorageService
+    name: GoalEFStorageService
+  - uid: FitnessTracker.Data.IBodyweightStorageService
+    name: IBodyweightStorageService
+  - uid: FitnessTracker.Data.IGoalStorageService
+    name: IGoalStorageService
+- uid: FitnessTracker.Migrations
+  name: FitnessTracker.Migrations
+  items:
+  - uid: FitnessTracker.Migrations.v11
+    name: v11
+- uid: FitnessTracker.Models
+  name: FitnessTracker.Models
+  items:
+  - uid: FitnessTracker.Models.BodyweightRecord
+    name: BodyweightRecord
+  - uid: FitnessTracker.Models.BodyweightTarget
+    name: BodyweightTarget
+  - uid: FitnessTracker.Models.ErrorViewModel
+    name: ErrorViewModel
+  - uid: FitnessTracker.Models.FitnessUser
+    name: FitnessUser
+  - uid: FitnessTracker.Models.Food
+    name: Food
+  - uid: FitnessTracker.Models.FoodRecord
+    name: FoodRecord
+  - uid: FitnessTracker.Models.Goal
+    name: Goal
+  - uid: FitnessTracker.Models.GoalProgress
+    name: GoalProgress
+  - uid: FitnessTracker.Models.NutritionTarget
+    name: NutritionTarget
+  - uid: FitnessTracker.Models.ServingUnit
+    name: ServingUnit
+  - uid: FitnessTracker.Models.TimedGoal
+    name: TimedGoal
+  - uid: FitnessTracker.Models.TimedProgress
+    name: TimedProgress
+  - uid: FitnessTracker.Models.WeightliftingGoal
+    name: WeightliftingGoal
+  - uid: FitnessTracker.Models.WeightliftingProgress
+    name: WeightliftingProgress
+  - uid: FitnessTracker.Models.WorkoutActivity
+    name: WorkoutActivity
+  - uid: FitnessTracker.Models.WorkoutPlan
+    name: WorkoutPlan
+  - uid: FitnessTracker.Models.WorkoutSession
+    name: WorkoutSession
+- uid: FitnessTracker.ViewModels
+  name: FitnessTracker.ViewModels
+  items:
+  - uid: FitnessTracker.ViewModels.AddGoalProgressInputModel
+    name: AddGoalProgressInputModel
+  - uid: FitnessTracker.ViewModels.BodyweightSummaryViewModel
+    name: BodyweightSummaryViewModel
+  - uid: FitnessTracker.ViewModels.EditGoalInputModel
+    name: EditGoalInputModel
+  - uid: FitnessTracker.ViewModels.GoalViewModel
+    name: GoalViewModel

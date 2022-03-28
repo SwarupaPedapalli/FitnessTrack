@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: FitnessTracker
+  commentId: N:FitnessTracker
+  id: FitnessTracker
+  children:
+  - FitnessTracker.Program
+  - FitnessTracker.Startup
+  langs:
+  - csharp
+  - vb
+  name: FitnessTracker
+  nameWithType: FitnessTracker
+  fullName: FitnessTracker
+  type: Namespace
+  assemblies:
+  - FitnessTracker
+references:
+- uid: FitnessTracker.Program
+  commentId: T:FitnessTracker.Program
+  name: Program
+  nameWithType: Program
+  fullName: FitnessTracker.Program
+- uid: FitnessTracker.Startup
+  commentId: T:FitnessTracker.Startup
+  name: Startup
+  nameWithType: Startup
+  fullName: FitnessTracker.Startup

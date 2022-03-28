@@ -1,0 +1,658 @@
+### YamlMime:ManagedReference
+items:
+- uid: FitnessTracker.Models.NutritionTarget
+  commentId: T:FitnessTracker.Models.NutritionTarget
+  id: NutritionTarget
+  parent: FitnessTracker.Models
+  children:
+  - FitnessTracker.Models.NutritionTarget.DailyCalories
+  - FitnessTracker.Models.NutritionTarget.DailyCarbohydrates
+  - FitnessTracker.Models.NutritionTarget.DailyFat
+  - FitnessTracker.Models.NutritionTarget.DailyProtein
+  - FitnessTracker.Models.NutritionTarget.ID
+  - FitnessTracker.Models.NutritionTarget.User
+  langs:
+  - csharp
+  - vb
+  name: NutritionTarget
+  nameWithType: NutritionTarget
+  fullName: FitnessTracker.Models.NutritionTarget
+  type: Class
+  source:
+    remote:
+      path: Models/NutritionTarget.cs
+      branch: main
+      repo: https://github.com/SwarupaPedapalli/FitnessTrack.git
+    id: NutritionTarget
+    path: Models/NutritionTarget.cs
+    startLine: 9
+  assemblies:
+  - FitnessTracker
+  namespace: FitnessTracker.Models
+  syntax:
+    content: public class NutritionTarget
+    content.vb: Public Class NutritionTarget
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: FitnessTracker.Models.NutritionTarget.ID
+  commentId: P:FitnessTracker.Models.NutritionTarget.ID
+  id: ID
+  parent: FitnessTracker.Models.NutritionTarget
+  langs:
+  - csharp
+  - vb
+  name: ID
+  nameWithType: NutritionTarget.ID
+  fullName: FitnessTracker.Models.NutritionTarget.ID
+  type: Property
+  source:
+    remote:
+      path: Models/NutritionTarget.cs
+      branch: main
+      repo: https://github.com/SwarupaPedapalli/FitnessTrack.git
+    id: ID
+    path: Models/NutritionTarget.cs
+    startLine: 11
+  assemblies:
+  - FitnessTracker
+  namespace: FitnessTracker.Models
+  syntax:
+    content: public long ID { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property ID As Long
+  overload: FitnessTracker.Models.NutritionTarget.ID*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FitnessTracker.Models.NutritionTarget.User
+  commentId: P:FitnessTracker.Models.NutritionTarget.User
+  id: User
+  parent: FitnessTracker.Models.NutritionTarget
+  langs:
+  - csharp
+  - vb
+  name: User
+  nameWithType: NutritionTarget.User
+  fullName: FitnessTracker.Models.NutritionTarget.User
+  type: Property
+  source:
+    remote:
+      path: Models/NutritionTarget.cs
+      branch: main
+      repo: https://github.com/SwarupaPedapalli/FitnessTrack.git
+    id: User
+    path: Models/NutritionTarget.cs
+    startLine: 12
+  assemblies:
+  - FitnessTracker
+  namespace: FitnessTracker.Models
+  syntax:
+    content: >-
+      [Required]
+
+      public FitnessUser User { get; set; }
+    parameters: []
+    return:
+      type: FitnessTracker.Models.FitnessUser
+    content.vb: >-
+      <Required>
+
+      Public Property User As FitnessUser
+  overload: FitnessTracker.Models.NutritionTarget.User*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FitnessTracker.Models.NutritionTarget.DailyCalories
+  commentId: P:FitnessTracker.Models.NutritionTarget.DailyCalories
+  id: DailyCalories
+  parent: FitnessTracker.Models.NutritionTarget
+  langs:
+  - csharp
+  - vb
+  name: DailyCalories
+  nameWithType: NutritionTarget.DailyCalories
+  fullName: FitnessTracker.Models.NutritionTarget.DailyCalories
+  type: Property
+  source:
+    remote:
+      path: Models/NutritionTarget.cs
+      branch: main
+      repo: https://github.com/SwarupaPedapalli/FitnessTrack.git
+    id: DailyCalories
+    path: Models/NutritionTarget.cs
+    startLine: 14
+  assemblies:
+  - FitnessTracker
+  namespace: FitnessTracker.Models
+  syntax:
+    content: >-
+      [Required]
+
+      public int DailyCalories { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <Required>
+
+      Public Property DailyCalories As Integer
+  overload: FitnessTracker.Models.NutritionTarget.DailyCalories*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FitnessTracker.Models.NutritionTarget.DailyCarbohydrates
+  commentId: P:FitnessTracker.Models.NutritionTarget.DailyCarbohydrates
+  id: DailyCarbohydrates
+  parent: FitnessTracker.Models.NutritionTarget
+  langs:
+  - csharp
+  - vb
+  name: DailyCarbohydrates
+  nameWithType: NutritionTarget.DailyCarbohydrates
+  fullName: FitnessTracker.Models.NutritionTarget.DailyCarbohydrates
+  type: Property
+  source:
+    remote:
+      path: Models/NutritionTarget.cs
+      branch: main
+      repo: https://github.com/SwarupaPedapalli/FitnessTrack.git
+    id: DailyCarbohydrates
+    path: Models/NutritionTarget.cs
+    startLine: 16
+  assemblies:
+  - FitnessTracker
+  namespace: FitnessTracker.Models
+  syntax:
+    content: >-
+      [Required]
+
+      public int DailyCarbohydrates { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <Required>
+
+      Public Property DailyCarbohydrates As Integer
+  overload: FitnessTracker.Models.NutritionTarget.DailyCarbohydrates*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FitnessTracker.Models.NutritionTarget.DailyProtein
+  commentId: P:FitnessTracker.Models.NutritionTarget.DailyProtein
+  id: DailyProtein
+  parent: FitnessTracker.Models.NutritionTarget
+  langs:
+  - csharp
+  - vb
+  name: DailyProtein
+  nameWithType: NutritionTarget.DailyProtein
+  fullName: FitnessTracker.Models.NutritionTarget.DailyProtein
+  type: Property
+  source:
+    remote:
+      path: Models/NutritionTarget.cs
+      branch: main
+      repo: https://github.com/SwarupaPedapalli/FitnessTrack.git
+    id: DailyProtein
+    path: Models/NutritionTarget.cs
+    startLine: 18
+  assemblies:
+  - FitnessTracker
+  namespace: FitnessTracker.Models
+  syntax:
+    content: >-
+      [Required]
+
+      public int DailyProtein { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <Required>
+
+      Public Property DailyProtein As Integer
+  overload: FitnessTracker.Models.NutritionTarget.DailyProtein*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: FitnessTracker.Models.NutritionTarget.DailyFat
+  commentId: P:FitnessTracker.Models.NutritionTarget.DailyFat
+  id: DailyFat
+  parent: FitnessTracker.Models.NutritionTarget
+  langs:
+  - csharp
+  - vb
+  name: DailyFat
+  nameWithType: NutritionTarget.DailyFat
+  fullName: FitnessTracker.Models.NutritionTarget.DailyFat
+  type: Property
+  source:
+    remote:
+      path: Models/NutritionTarget.cs
+      branch: main
+      repo: https://github.com/SwarupaPedapalli/FitnessTrack.git
+    id: DailyFat
+    path: Models/NutritionTarget.cs
+    startLine: 20
+  assemblies:
+  - FitnessTracker
+  namespace: FitnessTracker.Models
+  syntax:
+    content: >-
+      [Required]
+
+      public int DailyFat { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <Required>
+
+      Public Property DailyFat As Integer
+  overload: FitnessTracker.Models.NutritionTarget.DailyFat*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: FitnessTracker.Models
+  commentId: N:FitnessTracker.Models
+  name: FitnessTracker.Models
+  nameWithType: FitnessTracker.Models
+  fullName: FitnessTracker.Models
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: FitnessTracker.Models.NutritionTarget.ID*
+  commentId: Overload:FitnessTracker.Models.NutritionTarget.ID
+  name: ID
+  nameWithType: NutritionTarget.ID
+  fullName: FitnessTracker.Models.NutritionTarget.ID
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: FitnessTracker.Models.NutritionTarget.User*
+  commentId: Overload:FitnessTracker.Models.NutritionTarget.User
+  name: User
+  nameWithType: NutritionTarget.User
+  fullName: FitnessTracker.Models.NutritionTarget.User
+- uid: FitnessTracker.Models.FitnessUser
+  commentId: T:FitnessTracker.Models.FitnessUser
+  parent: FitnessTracker.Models
+  name: FitnessUser
+  nameWithType: FitnessUser
+  fullName: FitnessTracker.Models.FitnessUser
+- uid: FitnessTracker.Models.NutritionTarget.DailyCalories*
+  commentId: Overload:FitnessTracker.Models.NutritionTarget.DailyCalories
+  name: DailyCalories
+  nameWithType: NutritionTarget.DailyCalories
+  fullName: FitnessTracker.Models.NutritionTarget.DailyCalories
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: FitnessTracker.Models.NutritionTarget.DailyCarbohydrates*
+  commentId: Overload:FitnessTracker.Models.NutritionTarget.DailyCarbohydrates
+  name: DailyCarbohydrates
+  nameWithType: NutritionTarget.DailyCarbohydrates
+  fullName: FitnessTracker.Models.NutritionTarget.DailyCarbohydrates
+- uid: FitnessTracker.Models.NutritionTarget.DailyProtein*
+  commentId: Overload:FitnessTracker.Models.NutritionTarget.DailyProtein
+  name: DailyProtein
+  nameWithType: NutritionTarget.DailyProtein
+  fullName: FitnessTracker.Models.NutritionTarget.DailyProtein
+- uid: FitnessTracker.Models.NutritionTarget.DailyFat*
+  commentId: Overload:FitnessTracker.Models.NutritionTarget.DailyFat
+  name: DailyFat
+  nameWithType: NutritionTarget.DailyFat
+  fullName: FitnessTracker.Models.NutritionTarget.DailyFat

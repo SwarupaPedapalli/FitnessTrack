@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: FitnessTracker.Areas.Identity.Pages
+  commentId: N:FitnessTracker.Areas.Identity.Pages
+  id: FitnessTracker.Areas.Identity.Pages
+  children:
+  - FitnessTracker.Areas.Identity.Pages.ErrorModel
+  langs:
+  - csharp
+  - vb
+  name: FitnessTracker.Areas.Identity.Pages
+  nameWithType: FitnessTracker.Areas.Identity.Pages
+  fullName: FitnessTracker.Areas.Identity.Pages
+  type: Namespace
+  assemblies:
+  - FitnessTracker
+references:
+- uid: FitnessTracker.Areas.Identity.Pages.ErrorModel
+  commentId: T:FitnessTracker.Areas.Identity.Pages.ErrorModel
+  name: ErrorModel
+  nameWithType: ErrorModel
+  fullName: FitnessTracker.Areas.Identity.Pages.ErrorModel

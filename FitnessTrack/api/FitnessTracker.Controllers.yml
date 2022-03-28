@@ -1,0 +1,58 @@
+### YamlMime:ManagedReference
+items:
+- uid: FitnessTracker.Controllers
+  commentId: N:FitnessTracker.Controllers
+  id: FitnessTracker.Controllers
+  children:
+  - FitnessTracker.Controllers.BodyweightController
+  - FitnessTracker.Controllers.GoalController
+  - FitnessTracker.Controllers.HomeController
+  - FitnessTracker.Controllers.NewFoodModel
+  - FitnessTracker.Controllers.NutritionController
+  - FitnessTracker.Controllers.NutritionSummaryModel
+  - FitnessTracker.Controllers.WorkoutController
+  langs:
+  - csharp
+  - vb
+  name: FitnessTracker.Controllers
+  nameWithType: FitnessTracker.Controllers
+  fullName: FitnessTracker.Controllers
+  type: Namespace
+  assemblies:
+  - FitnessTracker
+references:
+- uid: FitnessTracker.Controllers.BodyweightController
+  commentId: T:FitnessTracker.Controllers.BodyweightController
+  name: BodyweightController
+  nameWithType: BodyweightController
+  fullName: FitnessTracker.Controllers.BodyweightController
+- uid: FitnessTracker.Controllers.GoalController
+  commentId: T:FitnessTracker.Controllers.GoalController
+  name: GoalController
+  nameWithType: GoalController
+  fullName: FitnessTracker.Controllers.GoalController
+- uid: FitnessTracker.Controllers.HomeController
+  commentId: T:FitnessTracker.Controllers.HomeController
+  name: HomeController
+  nameWithType: HomeController
+  fullName: FitnessTracker.Controllers.HomeController
+- uid: FitnessTracker.Controllers.NewFoodModel
+  commentId: T:FitnessTracker.Controllers.NewFoodModel
+  name: NewFoodModel
+  nameWithType: NewFoodModel
+  fullName: FitnessTracker.Controllers.NewFoodModel
+- uid: FitnessTracker.Controllers.NutritionSummaryModel
+  commentId: T:FitnessTracker.Controllers.NutritionSummaryModel
+  name: NutritionSummaryModel
+  nameWithType: NutritionSummaryModel
+  fullName: FitnessTracker.Controllers.NutritionSummaryModel
+- uid: FitnessTracker.Controllers.NutritionController
+  commentId: T:FitnessTracker.Controllers.NutritionController
+  name: NutritionController
+  nameWithType: NutritionController
+  fullName: FitnessTracker.Controllers.NutritionController
+- uid: FitnessTracker.Controllers.WorkoutController
+  commentId: T:FitnessTracker.Controllers.WorkoutController
+  name: WorkoutController
+  nameWithType: WorkoutController
+  fullName: FitnessTracker.Controllers.WorkoutController

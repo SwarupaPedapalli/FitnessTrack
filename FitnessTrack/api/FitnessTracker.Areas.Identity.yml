@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: FitnessTracker.Areas.Identity
+  commentId: N:FitnessTracker.Areas.Identity
+  id: FitnessTracker.Areas.Identity
+  children:
+  - FitnessTracker.Areas.Identity.IdentityHostingStartup
+  langs:
+  - csharp
+  - vb
+  name: FitnessTracker.Areas.Identity
+  nameWithType: FitnessTracker.Areas.Identity
+  fullName: FitnessTracker.Areas.Identity
+  type: Namespace
+  assemblies:
+  - FitnessTracker
+references:
+- uid: FitnessTracker.Areas.Identity.IdentityHostingStartup
+  commentId: T:FitnessTracker.Areas.Identity.IdentityHostingStartup
+  name: IdentityHostingStartup
+  nameWithType: IdentityHostingStartup
+  fullName: FitnessTracker.Areas.Identity.IdentityHostingStartup

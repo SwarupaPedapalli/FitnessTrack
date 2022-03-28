@@ -1,0 +1,1179 @@
+### YamlMime:ManagedReference
+items:
+- uid: FitnessTracker.Data.GoalEFStorageService
+  commentId: T:FitnessTracker.Data.GoalEFStorageService
+  id: GoalEFStorageService
+  parent: FitnessTracker.Data
+  children:
+  - FitnessTracker.Data.GoalEFStorageService.#ctor(FitnessTracker.Data.ApplicationDbContext)
+  - FitnessTracker.Data.GoalEFStorageService.DeleteGoalByID(FitnessTracker.Models.FitnessUser,System.Int64)
+  - FitnessTracker.Data.GoalEFStorageService.GetAllGoals(FitnessTracker.Models.FitnessUser)
+  - FitnessTracker.Data.GoalEFStorageService.GetGoalByID(FitnessTracker.Models.FitnessUser,System.Int64)
+  - FitnessTracker.Data.GoalEFStorageService.GetGoalProgress(FitnessTracker.Models.FitnessUser,System.Int64,System.Boolean)
+  - FitnessTracker.Data.GoalEFStorageService.StoreGoal(FitnessTracker.Models.Goal)
+  - FitnessTracker.Data.GoalEFStorageService.StoreGoalProgress(FitnessTracker.Models.GoalProgress)
+  langs:
+  - csharp
+  - vb
+  name: GoalEFStorageService
+  nameWithType: GoalEFStorageService
+  fullName: FitnessTracker.Data.GoalEFStorageService
+  type: Class
+  source:
+    remote:
+      path: Data/GoalEFStorageService.cs
+      branch: main
+      repo: https://github.com/SwarupaPedapalli/FitnessTrack.git
+    id: GoalEFStorageService
+    path: Data/GoalEFStorageService.cs
+    startLine: 9
+  assemblies:
+  - FitnessTracker
+  namespace: FitnessTracker.Data
+  syntax:
+    content: 'public class GoalEFStorageService : IGoalStorageService'
+    content.vb: >-
+      Public Class GoalEFStorageService
+          Implements IGoalStorageService
+  inheritance:
+  - System.Object
+  implements:
+  - FitnessTracker.Data.IGoalStorageService
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: FitnessTracker.Data.GoalEFStorageService.#ctor(FitnessTracker.Data.ApplicationDbContext)
+  commentId: M:FitnessTracker.Data.GoalEFStorageService.#ctor(FitnessTracker.Data.ApplicationDbContext)
+  id: '#ctor(FitnessTracker.Data.ApplicationDbContext)'
+  parent: FitnessTracker.Data.GoalEFStorageService
+  langs:
+  - csharp
+  - vb
+  name: GoalEFStorageService(ApplicationDbContext)
+  nameWithType: GoalEFStorageService.GoalEFStorageService(ApplicationDbContext)
+  fullName: FitnessTracker.Data.GoalEFStorageService.GoalEFStorageService(FitnessTracker.Data.ApplicationDbContext)
+  type: Constructor
+  source:
+    remote:
+      path: Data/GoalEFStorageService.cs
+      branch: main
+      repo: https://github.com/SwarupaPedapalli/FitnessTrack.git
+    id: .ctor
+    path: Data/GoalEFStorageService.cs
+    startLine: 13
+  assemblies:
+  - FitnessTracker
+  namespace: FitnessTracker.Data
+  syntax:
+    content: public GoalEFStorageService(ApplicationDbContext DBContext)
+    parameters:
+    - id: DBContext
+      type: FitnessTracker.Data.ApplicationDbContext
+    content.vb: Public Sub New(DBContext As ApplicationDbContext)
+  overload: FitnessTracker.Data.GoalEFStorageService.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: FitnessTracker.Data.GoalEFStorageService.DeleteGoalByID(FitnessTracker.Models.FitnessUser,System.Int64)
+  commentId: M:FitnessTracker.Data.GoalEFStorageService.DeleteGoalByID(FitnessTracker.Models.FitnessUser,System.Int64)
+  id: DeleteGoalByID(FitnessTracker.Models.FitnessUser,System.Int64)
+  parent: FitnessTracker.Data.GoalEFStorageService
+  langs:
+  - csharp
+  - vb
+  name: DeleteGoalByID(FitnessUser, Int64)
+  nameWithType: GoalEFStorageService.DeleteGoalByID(FitnessUser, Int64)
+  fullName: FitnessTracker.Data.GoalEFStorageService.DeleteGoalByID(FitnessTracker.Models.FitnessUser, System.Int64)
+  type: Method
+  source:
+    remote:
+      path: Data/GoalEFStorageService.cs
+      branch: main
+      repo: https://github.com/SwarupaPedapalli/FitnessTrack.git
+    id: DeleteGoalByID
+    path: Data/GoalEFStorageService.cs
+    startLine: 18
+  assemblies:
+  - FitnessTracker
+  namespace: FitnessTracker.Data
+  syntax:
+    content: public async Task DeleteGoalByID(FitnessUser User, long GoalID)
+    parameters:
+    - id: User
+      type: FitnessTracker.Models.FitnessUser
+    - id: GoalID
+      type: System.Int64
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function DeleteGoalByID(User As FitnessUser, GoalID As Long) As Task
+  overload: FitnessTracker.Data.GoalEFStorageService.DeleteGoalByID*
+  implements:
+  - FitnessTracker.Data.IGoalStorageService.DeleteGoalByID(FitnessTracker.Models.FitnessUser,System.Int64)
+  modifiers.csharp:
+  - public
+  - async
+  modifiers.vb:
+  - Public
+- uid: FitnessTracker.Data.GoalEFStorageService.GetAllGoals(FitnessTracker.Models.FitnessUser)
+  commentId: M:FitnessTracker.Data.GoalEFStorageService.GetAllGoals(FitnessTracker.Models.FitnessUser)
+  id: GetAllGoals(FitnessTracker.Models.FitnessUser)
+  parent: FitnessTracker.Data.GoalEFStorageService
+  langs:
+  - csharp
+  - vb
+  name: GetAllGoals(FitnessUser)
+  nameWithType: GoalEFStorageService.GetAllGoals(FitnessUser)
+  fullName: FitnessTracker.Data.GoalEFStorageService.GetAllGoals(FitnessTracker.Models.FitnessUser)
+  type: Method
+  source:
+    remote:
+      path: Data/GoalEFStorageService.cs
+      branch: main
+      repo: https://github.com/SwarupaPedapalli/FitnessTrack.git
+    id: GetAllGoals
+    path: Data/GoalEFStorageService.cs
+    startLine: 29
+  assemblies:
+  - FitnessTracker
+  namespace: FitnessTracker.Data
+  syntax:
+    content: public async Task<Goal[]> GetAllGoals(FitnessUser User)
+    parameters:
+    - id: User
+      type: FitnessTracker.Models.FitnessUser
+    return:
+      type: System.Threading.Tasks.Task{FitnessTracker.Models.Goal[]}
+    content.vb: Public Function GetAllGoals(User As FitnessUser) As Task(Of Goal())
+  overload: FitnessTracker.Data.GoalEFStorageService.GetAllGoals*
+  implements:
+  - FitnessTracker.Data.IGoalStorageService.GetAllGoals(FitnessTracker.Models.FitnessUser)
+  modifiers.csharp:
+  - public
+  - async
+  modifiers.vb:
+  - Public
+- uid: FitnessTracker.Data.GoalEFStorageService.GetGoalByID(FitnessTracker.Models.FitnessUser,System.Int64)
+  commentId: M:FitnessTracker.Data.GoalEFStorageService.GetGoalByID(FitnessTracker.Models.FitnessUser,System.Int64)
+  id: GetGoalByID(FitnessTracker.Models.FitnessUser,System.Int64)
+  parent: FitnessTracker.Data.GoalEFStorageService
+  langs:
+  - csharp
+  - vb
+  name: GetGoalByID(FitnessUser, Int64)
+  nameWithType: GoalEFStorageService.GetGoalByID(FitnessUser, Int64)
+  fullName: FitnessTracker.Data.GoalEFStorageService.GetGoalByID(FitnessTracker.Models.FitnessUser, System.Int64)
+  type: Method
+  source:
+    remote:
+      path: Data/GoalEFStorageService.cs
+      branch: main
+      repo: https://github.com/SwarupaPedapalli/FitnessTrack.git
+    id: GetGoalByID
+    path: Data/GoalEFStorageService.cs
+    startLine: 35
+  assemblies:
+  - FitnessTracker
+  namespace: FitnessTracker.Data
+  syntax:
+    content: public async Task<Goal> GetGoalByID(FitnessUser User, long GoalID)
+    parameters:
+    - id: User
+      type: FitnessTracker.Models.FitnessUser
+    - id: GoalID
+      type: System.Int64
+    return:
+      type: System.Threading.Tasks.Task{FitnessTracker.Models.Goal}
+    content.vb: Public Function GetGoalByID(User As FitnessUser, GoalID As Long) As Task(Of Goal)
+  overload: FitnessTracker.Data.GoalEFStorageService.GetGoalByID*
+  implements:
+  - FitnessTracker.Data.IGoalStorageService.GetGoalByID(FitnessTracker.Models.FitnessUser,System.Int64)
+  modifiers.csharp:
+  - public
+  - async
+  modifiers.vb:
+  - Public
+- uid: FitnessTracker.Data.GoalEFStorageService.GetGoalProgress(FitnessTracker.Models.FitnessUser,System.Int64,System.Boolean)
+  commentId: M:FitnessTracker.Data.GoalEFStorageService.GetGoalProgress(FitnessTracker.Models.FitnessUser,System.Int64,System.Boolean)
+  id: GetGoalProgress(FitnessTracker.Models.FitnessUser,System.Int64,System.Boolean)
+  parent: FitnessTracker.Data.GoalEFStorageService
+  langs:
+  - csharp
+  - vb
+  name: GetGoalProgress(FitnessUser, Int64, Boolean)
+  nameWithType: GoalEFStorageService.GetGoalProgress(FitnessUser, Int64, Boolean)
+  fullName: FitnessTracker.Data.GoalEFStorageService.GetGoalProgress(FitnessTracker.Models.FitnessUser, System.Int64, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Data/GoalEFStorageService.cs
+      branch: main
+      repo: https://github.com/SwarupaPedapalli/FitnessTrack.git
+    id: GetGoalProgress
+    path: Data/GoalEFStorageService.cs
+    startLine: 41
+  assemblies:
+  - FitnessTracker
+  namespace: FitnessTracker.Data
+  syntax:
+    content: public async Task<GoalProgress[]> GetGoalProgress(FitnessUser User, long GoalID, bool AscendingOrder = false)
+    parameters:
+    - id: User
+      type: FitnessTracker.Models.FitnessUser
+    - id: GoalID
+      type: System.Int64
+    - id: AscendingOrder
+      type: System.Boolean
+    return:
+      type: System.Threading.Tasks.Task{FitnessTracker.Models.GoalProgress[]}
+    content.vb: Public Function GetGoalProgress(User As FitnessUser, GoalID As Long, AscendingOrder As Boolean = False) As Task(Of GoalProgress())
+  overload: FitnessTracker.Data.GoalEFStorageService.GetGoalProgress*
+  implements:
+  - FitnessTracker.Data.IGoalStorageService.GetGoalProgress(FitnessTracker.Models.FitnessUser,System.Int64,System.Boolean)
+  modifiers.csharp:
+  - public
+  - async
+  modifiers.vb:
+  - Public
+- uid: FitnessTracker.Data.GoalEFStorageService.StoreGoal(FitnessTracker.Models.Goal)
+  commentId: M:FitnessTracker.Data.GoalEFStorageService.StoreGoal(FitnessTracker.Models.Goal)
+  id: StoreGoal(FitnessTracker.Models.Goal)
+  parent: FitnessTracker.Data.GoalEFStorageService
+  langs:
+  - csharp
+  - vb
+  name: StoreGoal(Goal)
+  nameWithType: GoalEFStorageService.StoreGoal(Goal)
+  fullName: FitnessTracker.Data.GoalEFStorageService.StoreGoal(FitnessTracker.Models.Goal)
+  type: Method
+  source:
+    remote:
+      path: Data/GoalEFStorageService.cs
+      branch: main
+      repo: https://github.com/SwarupaPedapalli/FitnessTrack.git
+    id: StoreGoal
+    path: Data/GoalEFStorageService.cs
+    startLine: 55
+  assemblies:
+  - FitnessTracker
+  namespace: FitnessTracker.Data
+  syntax:
+    content: public async Task StoreGoal(Goal Goal)
+    parameters:
+    - id: Goal
+      type: FitnessTracker.Models.Goal
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function StoreGoal(Goal As Goal) As Task
+  overload: FitnessTracker.Data.GoalEFStorageService.StoreGoal*
+  implements:
+  - FitnessTracker.Data.IGoalStorageService.StoreGoal(FitnessTracker.Models.Goal)
+  modifiers.csharp:
+  - public
+  - async
+  modifiers.vb:
+  - Public
+- uid: FitnessTracker.Data.GoalEFStorageService.StoreGoalProgress(FitnessTracker.Models.GoalProgress)
+  commentId: M:FitnessTracker.Data.GoalEFStorageService.StoreGoalProgress(FitnessTracker.Models.GoalProgress)
+  id: StoreGoalProgress(FitnessTracker.Models.GoalProgress)
+  parent: FitnessTracker.Data.GoalEFStorageService
+  langs:
+  - csharp
+  - vb
+  name: StoreGoalProgress(GoalProgress)
+  nameWithType: GoalEFStorageService.StoreGoalProgress(GoalProgress)
+  fullName: FitnessTracker.Data.GoalEFStorageService.StoreGoalProgress(FitnessTracker.Models.GoalProgress)
+  type: Method
+  source:
+    remote:
+      path: Data/GoalEFStorageService.cs
+      branch: main
+      repo: https://github.com/SwarupaPedapalli/FitnessTrack.git
+    id: StoreGoalProgress
+    path: Data/GoalEFStorageService.cs
+    startLine: 65
+  assemblies:
+  - FitnessTracker
+  namespace: FitnessTracker.Data
+  syntax:
+    content: public async Task StoreGoalProgress(GoalProgress Progress)
+    parameters:
+    - id: Progress
+      type: FitnessTracker.Models.GoalProgress
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function StoreGoalProgress(Progress As GoalProgress) As Task
+  overload: FitnessTracker.Data.GoalEFStorageService.StoreGoalProgress*
+  implements:
+  - FitnessTracker.Data.IGoalStorageService.StoreGoalProgress(FitnessTracker.Models.GoalProgress)
+  modifiers.csharp:
+  - public
+  - async
+  modifiers.vb:
+  - Public
+references:
+- uid: FitnessTracker.Data
+  commentId: N:FitnessTracker.Data
+  name: FitnessTracker.Data
+  nameWithType: FitnessTracker.Data
+  fullName: FitnessTracker.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: FitnessTracker.Data.IGoalStorageService
+  commentId: T:FitnessTracker.Data.IGoalStorageService
+  parent: FitnessTracker.Data
+  name: IGoalStorageService
+  nameWithType: IGoalStorageService
+  fullName: FitnessTracker.Data.IGoalStorageService
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: FitnessTracker.Data.GoalEFStorageService.#ctor*
+  commentId: Overload:FitnessTracker.Data.GoalEFStorageService.#ctor
+  name: GoalEFStorageService
+  nameWithType: GoalEFStorageService.GoalEFStorageService
+  fullName: FitnessTracker.Data.GoalEFStorageService.GoalEFStorageService
+- uid: FitnessTracker.Data.ApplicationDbContext
+  commentId: T:FitnessTracker.Data.ApplicationDbContext
+  parent: FitnessTracker.Data
+  name: ApplicationDbContext
+  nameWithType: ApplicationDbContext
+  fullName: FitnessTracker.Data.ApplicationDbContext
+- uid: FitnessTracker.Data.GoalEFStorageService.DeleteGoalByID*
+  commentId: Overload:FitnessTracker.Data.GoalEFStorageService.DeleteGoalByID
+  name: DeleteGoalByID
+  nameWithType: GoalEFStorageService.DeleteGoalByID
+  fullName: FitnessTracker.Data.GoalEFStorageService.DeleteGoalByID
+- uid: FitnessTracker.Data.IGoalStorageService.DeleteGoalByID(FitnessTracker.Models.FitnessUser,System.Int64)
+  commentId: M:FitnessTracker.Data.IGoalStorageService.DeleteGoalByID(FitnessTracker.Models.FitnessUser,System.Int64)
+  parent: FitnessTracker.Data.IGoalStorageService
+  isExternal: true
+  name: DeleteGoalByID(FitnessUser, Int64)
+  nameWithType: IGoalStorageService.DeleteGoalByID(FitnessUser, Int64)
+  fullName: FitnessTracker.Data.IGoalStorageService.DeleteGoalByID(FitnessTracker.Models.FitnessUser, System.Int64)
+  spec.csharp:
+  - uid: FitnessTracker.Data.IGoalStorageService.DeleteGoalByID(FitnessTracker.Models.FitnessUser,System.Int64)
+    name: DeleteGoalByID
+    nameWithType: IGoalStorageService.DeleteGoalByID
+    fullName: FitnessTracker.Data.IGoalStorageService.DeleteGoalByID
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: FitnessTracker.Models.FitnessUser
+    name: FitnessUser
+    nameWithType: FitnessUser
+    fullName: FitnessTracker.Models.FitnessUser
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FitnessTracker.Data.IGoalStorageService.DeleteGoalByID(FitnessTracker.Models.FitnessUser,System.Int64)
+    name: DeleteGoalByID
+    nameWithType: IGoalStorageService.DeleteGoalByID
+    fullName: FitnessTracker.Data.IGoalStorageService.DeleteGoalByID
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: FitnessTracker.Models.FitnessUser
+    name: FitnessUser
+    nameWithType: FitnessUser
+    fullName: FitnessTracker.Models.FitnessUser
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FitnessTracker.Models.FitnessUser
+  commentId: T:FitnessTracker.Models.FitnessUser
+  parent: FitnessTracker.Models
+  name: FitnessUser
+  nameWithType: FitnessUser
+  fullName: FitnessTracker.Models.FitnessUser
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: FitnessTracker.Models
+  commentId: N:FitnessTracker.Models
+  name: FitnessTracker.Models
+  nameWithType: FitnessTracker.Models
+  fullName: FitnessTracker.Models
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+- uid: FitnessTracker.Data.GoalEFStorageService.GetAllGoals*
+  commentId: Overload:FitnessTracker.Data.GoalEFStorageService.GetAllGoals
+  name: GetAllGoals
+  nameWithType: GoalEFStorageService.GetAllGoals
+  fullName: FitnessTracker.Data.GoalEFStorageService.GetAllGoals
+- uid: FitnessTracker.Data.IGoalStorageService.GetAllGoals(FitnessTracker.Models.FitnessUser)
+  commentId: M:FitnessTracker.Data.IGoalStorageService.GetAllGoals(FitnessTracker.Models.FitnessUser)
+  parent: FitnessTracker.Data.IGoalStorageService
+  name: GetAllGoals(FitnessUser)
+  nameWithType: IGoalStorageService.GetAllGoals(FitnessUser)
+  fullName: FitnessTracker.Data.IGoalStorageService.GetAllGoals(FitnessTracker.Models.FitnessUser)
+  spec.csharp:
+  - uid: FitnessTracker.Data.IGoalStorageService.GetAllGoals(FitnessTracker.Models.FitnessUser)
+    name: GetAllGoals
+    nameWithType: IGoalStorageService.GetAllGoals
+    fullName: FitnessTracker.Data.IGoalStorageService.GetAllGoals
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: FitnessTracker.Models.FitnessUser
+    name: FitnessUser
+    nameWithType: FitnessUser
+    fullName: FitnessTracker.Models.FitnessUser
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FitnessTracker.Data.IGoalStorageService.GetAllGoals(FitnessTracker.Models.FitnessUser)
+    name: GetAllGoals
+    nameWithType: IGoalStorageService.GetAllGoals
+    fullName: FitnessTracker.Data.IGoalStorageService.GetAllGoals
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: FitnessTracker.Models.FitnessUser
+    name: FitnessUser
+    nameWithType: FitnessUser
+    fullName: FitnessTracker.Models.FitnessUser
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task{FitnessTracker.Models.Goal[]}
+  commentId: T:System.Threading.Tasks.Task{FitnessTracker.Models.Goal[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Goal[]>
+  nameWithType: Task<Goal[]>
+  fullName: System.Threading.Tasks.Task<FitnessTracker.Models.Goal[]>
+  nameWithType.vb: Task(Of Goal())
+  fullName.vb: System.Threading.Tasks.Task(Of FitnessTracker.Models.Goal())
+  name.vb: Task(Of Goal())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: FitnessTracker.Models.Goal
+    name: Goal
+    nameWithType: Goal
+    fullName: FitnessTracker.Models.Goal
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: FitnessTracker.Models.Goal
+    name: Goal
+    nameWithType: Goal
+    fullName: FitnessTracker.Models.Goal
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FitnessTracker.Data.GoalEFStorageService.GetGoalByID*
+  commentId: Overload:FitnessTracker.Data.GoalEFStorageService.GetGoalByID
+  name: GetGoalByID
+  nameWithType: GoalEFStorageService.GetGoalByID
+  fullName: FitnessTracker.Data.GoalEFStorageService.GetGoalByID
+- uid: FitnessTracker.Data.IGoalStorageService.GetGoalByID(FitnessTracker.Models.FitnessUser,System.Int64)
+  commentId: M:FitnessTracker.Data.IGoalStorageService.GetGoalByID(FitnessTracker.Models.FitnessUser,System.Int64)
+  parent: FitnessTracker.Data.IGoalStorageService
+  isExternal: true
+  name: GetGoalByID(FitnessUser, Int64)
+  nameWithType: IGoalStorageService.GetGoalByID(FitnessUser, Int64)
+  fullName: FitnessTracker.Data.IGoalStorageService.GetGoalByID(FitnessTracker.Models.FitnessUser, System.Int64)
+  spec.csharp:
+  - uid: FitnessTracker.Data.IGoalStorageService.GetGoalByID(FitnessTracker.Models.FitnessUser,System.Int64)
+    name: GetGoalByID
+    nameWithType: IGoalStorageService.GetGoalByID
+    fullName: FitnessTracker.Data.IGoalStorageService.GetGoalByID
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: FitnessTracker.Models.FitnessUser
+    name: FitnessUser
+    nameWithType: FitnessUser
+    fullName: FitnessTracker.Models.FitnessUser
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FitnessTracker.Data.IGoalStorageService.GetGoalByID(FitnessTracker.Models.FitnessUser,System.Int64)
+    name: GetGoalByID
+    nameWithType: IGoalStorageService.GetGoalByID
+    fullName: FitnessTracker.Data.IGoalStorageService.GetGoalByID
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: FitnessTracker.Models.FitnessUser
+    name: FitnessUser
+    nameWithType: FitnessUser
+    fullName: FitnessTracker.Models.FitnessUser
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task{FitnessTracker.Models.Goal}
+  commentId: T:System.Threading.Tasks.Task{FitnessTracker.Models.Goal}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Goal>
+  nameWithType: Task<Goal>
+  fullName: System.Threading.Tasks.Task<FitnessTracker.Models.Goal>
+  nameWithType.vb: Task(Of Goal)
+  fullName.vb: System.Threading.Tasks.Task(Of FitnessTracker.Models.Goal)
+  name.vb: Task(Of Goal)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: FitnessTracker.Models.Goal
+    name: Goal
+    nameWithType: Goal
+    fullName: FitnessTracker.Models.Goal
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: FitnessTracker.Models.Goal
+    name: Goal
+    nameWithType: Goal
+    fullName: FitnessTracker.Models.Goal
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FitnessTracker.Data.GoalEFStorageService.GetGoalProgress*
+  commentId: Overload:FitnessTracker.Data.GoalEFStorageService.GetGoalProgress
+  name: GetGoalProgress
+  nameWithType: GoalEFStorageService.GetGoalProgress
+  fullName: FitnessTracker.Data.GoalEFStorageService.GetGoalProgress
+- uid: FitnessTracker.Data.IGoalStorageService.GetGoalProgress(FitnessTracker.Models.FitnessUser,System.Int64,System.Boolean)
+  commentId: M:FitnessTracker.Data.IGoalStorageService.GetGoalProgress(FitnessTracker.Models.FitnessUser,System.Int64,System.Boolean)
+  parent: FitnessTracker.Data.IGoalStorageService
+  isExternal: true
+  name: GetGoalProgress(FitnessUser, Int64, Boolean)
+  nameWithType: IGoalStorageService.GetGoalProgress(FitnessUser, Int64, Boolean)
+  fullName: FitnessTracker.Data.IGoalStorageService.GetGoalProgress(FitnessTracker.Models.FitnessUser, System.Int64, System.Boolean)
+  spec.csharp:
+  - uid: FitnessTracker.Data.IGoalStorageService.GetGoalProgress(FitnessTracker.Models.FitnessUser,System.Int64,System.Boolean)
+    name: GetGoalProgress
+    nameWithType: IGoalStorageService.GetGoalProgress
+    fullName: FitnessTracker.Data.IGoalStorageService.GetGoalProgress
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: FitnessTracker.Models.FitnessUser
+    name: FitnessUser
+    nameWithType: FitnessUser
+    fullName: FitnessTracker.Models.FitnessUser
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FitnessTracker.Data.IGoalStorageService.GetGoalProgress(FitnessTracker.Models.FitnessUser,System.Int64,System.Boolean)
+    name: GetGoalProgress
+    nameWithType: IGoalStorageService.GetGoalProgress
+    fullName: FitnessTracker.Data.IGoalStorageService.GetGoalProgress
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: FitnessTracker.Models.FitnessUser
+    name: FitnessUser
+    nameWithType: FitnessUser
+    fullName: FitnessTracker.Models.FitnessUser
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Threading.Tasks.Task{FitnessTracker.Models.GoalProgress[]}
+  commentId: T:System.Threading.Tasks.Task{FitnessTracker.Models.GoalProgress[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<GoalProgress[]>
+  nameWithType: Task<GoalProgress[]>
+  fullName: System.Threading.Tasks.Task<FitnessTracker.Models.GoalProgress[]>
+  nameWithType.vb: Task(Of GoalProgress())
+  fullName.vb: System.Threading.Tasks.Task(Of FitnessTracker.Models.GoalProgress())
+  name.vb: Task(Of GoalProgress())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: FitnessTracker.Models.GoalProgress
+    name: GoalProgress
+    nameWithType: GoalProgress
+    fullName: FitnessTracker.Models.GoalProgress
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: FitnessTracker.Models.GoalProgress
+    name: GoalProgress
+    nameWithType: GoalProgress
+    fullName: FitnessTracker.Models.GoalProgress
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FitnessTracker.Data.GoalEFStorageService.StoreGoal*
+  commentId: Overload:FitnessTracker.Data.GoalEFStorageService.StoreGoal
+  name: StoreGoal
+  nameWithType: GoalEFStorageService.StoreGoal
+  fullName: FitnessTracker.Data.GoalEFStorageService.StoreGoal
+- uid: FitnessTracker.Data.IGoalStorageService.StoreGoal(FitnessTracker.Models.Goal)
+  commentId: M:FitnessTracker.Data.IGoalStorageService.StoreGoal(FitnessTracker.Models.Goal)
+  parent: FitnessTracker.Data.IGoalStorageService
+  name: StoreGoal(Goal)
+  nameWithType: IGoalStorageService.StoreGoal(Goal)
+  fullName: FitnessTracker.Data.IGoalStorageService.StoreGoal(FitnessTracker.Models.Goal)
+  spec.csharp:
+  - uid: FitnessTracker.Data.IGoalStorageService.StoreGoal(FitnessTracker.Models.Goal)
+    name: StoreGoal
+    nameWithType: IGoalStorageService.StoreGoal
+    fullName: FitnessTracker.Data.IGoalStorageService.StoreGoal
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: FitnessTracker.Models.Goal
+    name: Goal
+    nameWithType: Goal
+    fullName: FitnessTracker.Models.Goal
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FitnessTracker.Data.IGoalStorageService.StoreGoal(FitnessTracker.Models.Goal)
+    name: StoreGoal
+    nameWithType: IGoalStorageService.StoreGoal
+    fullName: FitnessTracker.Data.IGoalStorageService.StoreGoal
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: FitnessTracker.Models.Goal
+    name: Goal
+    nameWithType: Goal
+    fullName: FitnessTracker.Models.Goal
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FitnessTracker.Models.Goal
+  commentId: T:FitnessTracker.Models.Goal
+  parent: FitnessTracker.Models
+  name: Goal
+  nameWithType: Goal
+  fullName: FitnessTracker.Models.Goal
+- uid: FitnessTracker.Data.GoalEFStorageService.StoreGoalProgress*
+  commentId: Overload:FitnessTracker.Data.GoalEFStorageService.StoreGoalProgress
+  name: StoreGoalProgress
+  nameWithType: GoalEFStorageService.StoreGoalProgress
+  fullName: FitnessTracker.Data.GoalEFStorageService.StoreGoalProgress
+- uid: FitnessTracker.Data.IGoalStorageService.StoreGoalProgress(FitnessTracker.Models.GoalProgress)
+  commentId: M:FitnessTracker.Data.IGoalStorageService.StoreGoalProgress(FitnessTracker.Models.GoalProgress)
+  parent: FitnessTracker.Data.IGoalStorageService
+  name: StoreGoalProgress(GoalProgress)
+  nameWithType: IGoalStorageService.StoreGoalProgress(GoalProgress)
+  fullName: FitnessTracker.Data.IGoalStorageService.StoreGoalProgress(FitnessTracker.Models.GoalProgress)
+  spec.csharp:
+  - uid: FitnessTracker.Data.IGoalStorageService.StoreGoalProgress(FitnessTracker.Models.GoalProgress)
+    name: StoreGoalProgress
+    nameWithType: IGoalStorageService.StoreGoalProgress
+    fullName: FitnessTracker.Data.IGoalStorageService.StoreGoalProgress
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: FitnessTracker.Models.GoalProgress
+    name: GoalProgress
+    nameWithType: GoalProgress
+    fullName: FitnessTracker.Models.GoalProgress
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: FitnessTracker.Data.IGoalStorageService.StoreGoalProgress(FitnessTracker.Models.GoalProgress)
+    name: StoreGoalProgress
+    nameWithType: IGoalStorageService.StoreGoalProgress
+    fullName: FitnessTracker.Data.IGoalStorageService.StoreGoalProgress
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: FitnessTracker.Models.GoalProgress
+    name: GoalProgress
+    nameWithType: GoalProgress
+    fullName: FitnessTracker.Models.GoalProgress
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FitnessTracker.Models.GoalProgress
+  commentId: T:FitnessTracker.Models.GoalProgress
+  parent: FitnessTracker.Models
+  name: GoalProgress
+  nameWithType: GoalProgress
+  fullName: FitnessTracker.Models.GoalProgress

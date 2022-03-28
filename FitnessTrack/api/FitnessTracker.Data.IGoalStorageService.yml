@@ -1,0 +1,503 @@
+### YamlMime:ManagedReference
+items:
+- uid: FitnessTracker.Data.IGoalStorageService
+  commentId: T:FitnessTracker.Data.IGoalStorageService
+  id: IGoalStorageService
+  parent: FitnessTracker.Data
+  children:
+  - FitnessTracker.Data.IGoalStorageService.DeleteGoalByID(FitnessTracker.Models.FitnessUser,System.Int64)
+  - FitnessTracker.Data.IGoalStorageService.GetAllGoals(FitnessTracker.Models.FitnessUser)
+  - FitnessTracker.Data.IGoalStorageService.GetGoalByID(FitnessTracker.Models.FitnessUser,System.Int64)
+  - FitnessTracker.Data.IGoalStorageService.GetGoalProgress(FitnessTracker.Models.FitnessUser,System.Int64,System.Boolean)
+  - FitnessTracker.Data.IGoalStorageService.StoreGoal(FitnessTracker.Models.Goal)
+  - FitnessTracker.Data.IGoalStorageService.StoreGoalProgress(FitnessTracker.Models.GoalProgress)
+  langs:
+  - csharp
+  - vb
+  name: IGoalStorageService
+  nameWithType: IGoalStorageService
+  fullName: FitnessTracker.Data.IGoalStorageService
+  type: Interface
+  source:
+    remote:
+      path: Data/IGoalStorageService.cs
+      branch: main
+      repo: https://github.com/SwarupaPedapalli/FitnessTrack.git
+    id: IGoalStorageService
+    path: Data/IGoalStorageService.cs
+    startLine: 8
+  assemblies:
+  - FitnessTracker
+  namespace: FitnessTracker.Data
+  syntax:
+    content: public interface IGoalStorageService
+    content.vb: Public Interface IGoalStorageService
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: FitnessTracker.Data.IGoalStorageService.GetAllGoals(FitnessTracker.Models.FitnessUser)
+  commentId: M:FitnessTracker.Data.IGoalStorageService.GetAllGoals(FitnessTracker.Models.FitnessUser)
+  id: GetAllGoals(FitnessTracker.Models.FitnessUser)
+  parent: FitnessTracker.Data.IGoalStorageService
+  langs:
+  - csharp
+  - vb
+  name: GetAllGoals(FitnessUser)
+  nameWithType: IGoalStorageService.GetAllGoals(FitnessUser)
+  fullName: FitnessTracker.Data.IGoalStorageService.GetAllGoals(FitnessTracker.Models.FitnessUser)
+  type: Method
+  source:
+    remote:
+      path: Data/IGoalStorageService.cs
+      branch: main
+      repo: https://github.com/SwarupaPedapalli/FitnessTrack.git
+    id: GetAllGoals
+    path: Data/IGoalStorageService.cs
+    startLine: 10
+  assemblies:
+  - FitnessTracker
+  namespace: FitnessTracker.Data
+  syntax:
+    content: Task<Goal[]> GetAllGoals(FitnessUser User)
+    parameters:
+    - id: User
+      type: FitnessTracker.Models.FitnessUser
+    return:
+      type: System.Threading.Tasks.Task{FitnessTracker.Models.Goal[]}
+    content.vb: Function GetAllGoals(User As FitnessUser) As Task(Of Goal())
+  overload: FitnessTracker.Data.IGoalStorageService.GetAllGoals*
+- uid: FitnessTracker.Data.IGoalStorageService.GetGoalByID(FitnessTracker.Models.FitnessUser,System.Int64)
+  commentId: M:FitnessTracker.Data.IGoalStorageService.GetGoalByID(FitnessTracker.Models.FitnessUser,System.Int64)
+  id: GetGoalByID(FitnessTracker.Models.FitnessUser,System.Int64)
+  parent: FitnessTracker.Data.IGoalStorageService
+  langs:
+  - csharp
+  - vb
+  name: GetGoalByID(FitnessUser, Int64)
+  nameWithType: IGoalStorageService.GetGoalByID(FitnessUser, Int64)
+  fullName: FitnessTracker.Data.IGoalStorageService.GetGoalByID(FitnessTracker.Models.FitnessUser, System.Int64)
+  type: Method
+  source:
+    remote:
+      path: Data/IGoalStorageService.cs
+      branch: main
+      repo: https://github.com/SwarupaPedapalli/FitnessTrack.git
+    id: GetGoalByID
+    path: Data/IGoalStorageService.cs
+    startLine: 11
+  assemblies:
+  - FitnessTracker
+  namespace: FitnessTracker.Data
+  syntax:
+    content: Task<Goal> GetGoalByID(FitnessUser User, long GoalID)
+    parameters:
+    - id: User
+      type: FitnessTracker.Models.FitnessUser
+    - id: GoalID
+      type: System.Int64
+    return:
+      type: System.Threading.Tasks.Task{FitnessTracker.Models.Goal}
+    content.vb: Function GetGoalByID(User As FitnessUser, GoalID As Long) As Task(Of Goal)
+  overload: FitnessTracker.Data.IGoalStorageService.GetGoalByID*
+- uid: FitnessTracker.Data.IGoalStorageService.DeleteGoalByID(FitnessTracker.Models.FitnessUser,System.Int64)
+  commentId: M:FitnessTracker.Data.IGoalStorageService.DeleteGoalByID(FitnessTracker.Models.FitnessUser,System.Int64)
+  id: DeleteGoalByID(FitnessTracker.Models.FitnessUser,System.Int64)
+  parent: FitnessTracker.Data.IGoalStorageService
+  langs:
+  - csharp
+  - vb
+  name: DeleteGoalByID(FitnessUser, Int64)
+  nameWithType: IGoalStorageService.DeleteGoalByID(FitnessUser, Int64)
+  fullName: FitnessTracker.Data.IGoalStorageService.DeleteGoalByID(FitnessTracker.Models.FitnessUser, System.Int64)
+  type: Method
+  source:
+    remote:
+      path: Data/IGoalStorageService.cs
+      branch: main
+      repo: https://github.com/SwarupaPedapalli/FitnessTrack.git
+    id: DeleteGoalByID
+    path: Data/IGoalStorageService.cs
+    startLine: 12
+  assemblies:
+  - FitnessTracker
+  namespace: FitnessTracker.Data
+  syntax:
+    content: Task DeleteGoalByID(FitnessUser User, long GoalID)
+    parameters:
+    - id: User
+      type: FitnessTracker.Models.FitnessUser
+    - id: GoalID
+      type: System.Int64
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function DeleteGoalByID(User As FitnessUser, GoalID As Long) As Task
+  overload: FitnessTracker.Data.IGoalStorageService.DeleteGoalByID*
+- uid: FitnessTracker.Data.IGoalStorageService.StoreGoal(FitnessTracker.Models.Goal)
+  commentId: M:FitnessTracker.Data.IGoalStorageService.StoreGoal(FitnessTracker.Models.Goal)
+  id: StoreGoal(FitnessTracker.Models.Goal)
+  parent: FitnessTracker.Data.IGoalStorageService
+  langs:
+  - csharp
+  - vb
+  name: StoreGoal(Goal)
+  nameWithType: IGoalStorageService.StoreGoal(Goal)
+  fullName: FitnessTracker.Data.IGoalStorageService.StoreGoal(FitnessTracker.Models.Goal)
+  type: Method
+  source:
+    remote:
+      path: Data/IGoalStorageService.cs
+      branch: main
+      repo: https://github.com/SwarupaPedapalli/FitnessTrack.git
+    id: StoreGoal
+    path: Data/IGoalStorageService.cs
+    startLine: 13
+  assemblies:
+  - FitnessTracker
+  namespace: FitnessTracker.Data
+  syntax:
+    content: Task StoreGoal(Goal Goal)
+    parameters:
+    - id: Goal
+      type: FitnessTracker.Models.Goal
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function StoreGoal(Goal As Goal) As Task
+  overload: FitnessTracker.Data.IGoalStorageService.StoreGoal*
+- uid: FitnessTracker.Data.IGoalStorageService.StoreGoalProgress(FitnessTracker.Models.GoalProgress)
+  commentId: M:FitnessTracker.Data.IGoalStorageService.StoreGoalProgress(FitnessTracker.Models.GoalProgress)
+  id: StoreGoalProgress(FitnessTracker.Models.GoalProgress)
+  parent: FitnessTracker.Data.IGoalStorageService
+  langs:
+  - csharp
+  - vb
+  name: StoreGoalProgress(GoalProgress)
+  nameWithType: IGoalStorageService.StoreGoalProgress(GoalProgress)
+  fullName: FitnessTracker.Data.IGoalStorageService.StoreGoalProgress(FitnessTracker.Models.GoalProgress)
+  type: Method
+  source:
+    remote:
+      path: Data/IGoalStorageService.cs
+      branch: main
+      repo: https://github.com/SwarupaPedapalli/FitnessTrack.git
+    id: StoreGoalProgress
+    path: Data/IGoalStorageService.cs
+    startLine: 14
+  assemblies:
+  - FitnessTracker
+  namespace: FitnessTracker.Data
+  syntax:
+    content: Task StoreGoalProgress(GoalProgress Progress)
+    parameters:
+    - id: Progress
+      type: FitnessTracker.Models.GoalProgress
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function StoreGoalProgress(Progress As GoalProgress) As Task
+  overload: FitnessTracker.Data.IGoalStorageService.StoreGoalProgress*
+- uid: FitnessTracker.Data.IGoalStorageService.GetGoalProgress(FitnessTracker.Models.FitnessUser,System.Int64,System.Boolean)
+  commentId: M:FitnessTracker.Data.IGoalStorageService.GetGoalProgress(FitnessTracker.Models.FitnessUser,System.Int64,System.Boolean)
+  id: GetGoalProgress(FitnessTracker.Models.FitnessUser,System.Int64,System.Boolean)
+  parent: FitnessTracker.Data.IGoalStorageService
+  langs:
+  - csharp
+  - vb
+  name: GetGoalProgress(FitnessUser, Int64, Boolean)
+  nameWithType: IGoalStorageService.GetGoalProgress(FitnessUser, Int64, Boolean)
+  fullName: FitnessTracker.Data.IGoalStorageService.GetGoalProgress(FitnessTracker.Models.FitnessUser, System.Int64, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Data/IGoalStorageService.cs
+      branch: main
+      repo: https://github.com/SwarupaPedapalli/FitnessTrack.git
+    id: GetGoalProgress
+    path: Data/IGoalStorageService.cs
+    startLine: 15
+  assemblies:
+  - FitnessTracker
+  namespace: FitnessTracker.Data
+  syntax:
+    content: Task<GoalProgress[]> GetGoalProgress(FitnessUser User, long GoalID, bool AscendingOrder = false)
+    parameters:
+    - id: User
+      type: FitnessTracker.Models.FitnessUser
+    - id: GoalID
+      type: System.Int64
+    - id: AscendingOrder
+      type: System.Boolean
+    return:
+      type: System.Threading.Tasks.Task{FitnessTracker.Models.GoalProgress[]}
+    content.vb: Function GetGoalProgress(User As FitnessUser, GoalID As Long, AscendingOrder As Boolean = False) As Task(Of GoalProgress())
+  overload: FitnessTracker.Data.IGoalStorageService.GetGoalProgress*
+references:
+- uid: FitnessTracker.Data
+  commentId: N:FitnessTracker.Data
+  name: FitnessTracker.Data
+  nameWithType: FitnessTracker.Data
+  fullName: FitnessTracker.Data
+- uid: FitnessTracker.Data.IGoalStorageService.GetAllGoals*
+  commentId: Overload:FitnessTracker.Data.IGoalStorageService.GetAllGoals
+  name: GetAllGoals
+  nameWithType: IGoalStorageService.GetAllGoals
+  fullName: FitnessTracker.Data.IGoalStorageService.GetAllGoals
+- uid: FitnessTracker.Models.FitnessUser
+  commentId: T:FitnessTracker.Models.FitnessUser
+  parent: FitnessTracker.Models
+  name: FitnessUser
+  nameWithType: FitnessUser
+  fullName: FitnessTracker.Models.FitnessUser
+- uid: System.Threading.Tasks.Task{FitnessTracker.Models.Goal[]}
+  commentId: T:System.Threading.Tasks.Task{FitnessTracker.Models.Goal[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Goal[]>
+  nameWithType: Task<Goal[]>
+  fullName: System.Threading.Tasks.Task<FitnessTracker.Models.Goal[]>
+  nameWithType.vb: Task(Of Goal())
+  fullName.vb: System.Threading.Tasks.Task(Of FitnessTracker.Models.Goal())
+  name.vb: Task(Of Goal())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: FitnessTracker.Models.Goal
+    name: Goal
+    nameWithType: Goal
+    fullName: FitnessTracker.Models.Goal
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: FitnessTracker.Models.Goal
+    name: Goal
+    nameWithType: Goal
+    fullName: FitnessTracker.Models.Goal
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FitnessTracker.Models
+  commentId: N:FitnessTracker.Models
+  name: FitnessTracker.Models
+  nameWithType: FitnessTracker.Models
+  fullName: FitnessTracker.Models
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+- uid: FitnessTracker.Data.IGoalStorageService.GetGoalByID*
+  commentId: Overload:FitnessTracker.Data.IGoalStorageService.GetGoalByID
+  name: GetGoalByID
+  nameWithType: IGoalStorageService.GetGoalByID
+  fullName: FitnessTracker.Data.IGoalStorageService.GetGoalByID
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: System.Threading.Tasks.Task{FitnessTracker.Models.Goal}
+  commentId: T:System.Threading.Tasks.Task{FitnessTracker.Models.Goal}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Goal>
+  nameWithType: Task<Goal>
+  fullName: System.Threading.Tasks.Task<FitnessTracker.Models.Goal>
+  nameWithType.vb: Task(Of Goal)
+  fullName.vb: System.Threading.Tasks.Task(Of FitnessTracker.Models.Goal)
+  name.vb: Task(Of Goal)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: FitnessTracker.Models.Goal
+    name: Goal
+    nameWithType: Goal
+    fullName: FitnessTracker.Models.Goal
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: FitnessTracker.Models.Goal
+    name: Goal
+    nameWithType: Goal
+    fullName: FitnessTracker.Models.Goal
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: FitnessTracker.Data.IGoalStorageService.DeleteGoalByID*
+  commentId: Overload:FitnessTracker.Data.IGoalStorageService.DeleteGoalByID
+  name: DeleteGoalByID
+  nameWithType: IGoalStorageService.DeleteGoalByID
+  fullName: FitnessTracker.Data.IGoalStorageService.DeleteGoalByID
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: FitnessTracker.Data.IGoalStorageService.StoreGoal*
+  commentId: Overload:FitnessTracker.Data.IGoalStorageService.StoreGoal
+  name: StoreGoal
+  nameWithType: IGoalStorageService.StoreGoal
+  fullName: FitnessTracker.Data.IGoalStorageService.StoreGoal
+- uid: FitnessTracker.Models.Goal
+  commentId: T:FitnessTracker.Models.Goal
+  parent: FitnessTracker.Models
+  name: Goal
+  nameWithType: Goal
+  fullName: FitnessTracker.Models.Goal
+- uid: FitnessTracker.Data.IGoalStorageService.StoreGoalProgress*
+  commentId: Overload:FitnessTracker.Data.IGoalStorageService.StoreGoalProgress
+  name: StoreGoalProgress
+  nameWithType: IGoalStorageService.StoreGoalProgress
+  fullName: FitnessTracker.Data.IGoalStorageService.StoreGoalProgress
+- uid: FitnessTracker.Models.GoalProgress
+  commentId: T:FitnessTracker.Models.GoalProgress
+  parent: FitnessTracker.Models
+  name: GoalProgress
+  nameWithType: GoalProgress
+  fullName: FitnessTracker.Models.GoalProgress
+- uid: FitnessTracker.Data.IGoalStorageService.GetGoalProgress*
+  commentId: Overload:FitnessTracker.Data.IGoalStorageService.GetGoalProgress
+  name: GetGoalProgress
+  nameWithType: IGoalStorageService.GetGoalProgress
+  fullName: FitnessTracker.Data.IGoalStorageService.GetGoalProgress
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Threading.Tasks.Task{FitnessTracker.Models.GoalProgress[]}
+  commentId: T:System.Threading.Tasks.Task{FitnessTracker.Models.GoalProgress[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<GoalProgress[]>
+  nameWithType: Task<GoalProgress[]>
+  fullName: System.Threading.Tasks.Task<FitnessTracker.Models.GoalProgress[]>
+  nameWithType.vb: Task(Of GoalProgress())
+  fullName.vb: System.Threading.Tasks.Task(Of FitnessTracker.Models.GoalProgress())
+  name.vb: Task(Of GoalProgress())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: FitnessTracker.Models.GoalProgress
+    name: GoalProgress
+    nameWithType: GoalProgress
+    fullName: FitnessTracker.Models.GoalProgress
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: FitnessTracker.Models.GoalProgress
+    name: GoalProgress
+    nameWithType: GoalProgress
+    fullName: FitnessTracker.Models.GoalProgress
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )

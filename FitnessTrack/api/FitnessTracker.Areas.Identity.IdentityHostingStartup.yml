@@ -1,0 +1,448 @@
+### YamlMime:ManagedReference
+items:
+- uid: FitnessTracker.Areas.Identity.IdentityHostingStartup
+  commentId: T:FitnessTracker.Areas.Identity.IdentityHostingStartup
+  id: IdentityHostingStartup
+  parent: FitnessTracker.Areas.Identity
+  children:
+  - FitnessTracker.Areas.Identity.IdentityHostingStartup.Configure(Microsoft.AspNetCore.Hosting.IWebHostBuilder)
+  langs:
+  - csharp
+  - vb
+  name: IdentityHostingStartup
+  nameWithType: IdentityHostingStartup
+  fullName: FitnessTracker.Areas.Identity.IdentityHostingStartup
+  type: Class
+  source:
+    remote:
+      path: Areas/Identity/IdentityHostingStartup.cs
+      branch: main
+      repo: https://github.com/SwarupaPedapalli/FitnessTrack.git
+    id: IdentityHostingStartup
+    path: Areas/Identity/IdentityHostingStartup.cs
+    startLine: 12
+  assemblies:
+  - FitnessTracker
+  namespace: FitnessTracker.Areas.Identity
+  syntax:
+    content: 'public class IdentityHostingStartup : IHostingStartup'
+    content.vb: >-
+      Public Class IdentityHostingStartup
+          Implements IHostingStartup
+  inheritance:
+  - System.Object
+  implements:
+  - Microsoft.AspNetCore.Hosting.IHostingStartup
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: FitnessTracker.Areas.Identity.IdentityHostingStartup.Configure(Microsoft.AspNetCore.Hosting.IWebHostBuilder)
+  commentId: M:FitnessTracker.Areas.Identity.IdentityHostingStartup.Configure(Microsoft.AspNetCore.Hosting.IWebHostBuilder)
+  id: Configure(Microsoft.AspNetCore.Hosting.IWebHostBuilder)
+  parent: FitnessTracker.Areas.Identity.IdentityHostingStartup
+  langs:
+  - csharp
+  - vb
+  name: Configure(IWebHostBuilder)
+  nameWithType: IdentityHostingStartup.Configure(IWebHostBuilder)
+  fullName: FitnessTracker.Areas.Identity.IdentityHostingStartup.Configure(Microsoft.AspNetCore.Hosting.IWebHostBuilder)
+  type: Method
+  source:
+    remote:
+      path: Areas/Identity/IdentityHostingStartup.cs
+      branch: main
+      repo: https://github.com/SwarupaPedapalli/FitnessTrack.git
+    id: Configure
+    path: Areas/Identity/IdentityHostingStartup.cs
+    startLine: 14
+  assemblies:
+  - FitnessTracker
+  namespace: FitnessTracker.Areas.Identity
+  syntax:
+    content: public void Configure(IWebHostBuilder builder)
+    parameters:
+    - id: builder
+      type: Microsoft.AspNetCore.Hosting.IWebHostBuilder
+    content.vb: Public Sub Configure(builder As IWebHostBuilder)
+  overload: FitnessTracker.Areas.Identity.IdentityHostingStartup.Configure*
+  implements:
+  - Microsoft.AspNetCore.Hosting.IHostingStartup.Configure(Microsoft.AspNetCore.Hosting.IWebHostBuilder)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: FitnessTracker.Areas.Identity
+  commentId: N:FitnessTracker.Areas.Identity
+  name: FitnessTracker.Areas.Identity
+  nameWithType: FitnessTracker.Areas.Identity
+  fullName: FitnessTracker.Areas.Identity
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Microsoft.AspNetCore.Hosting.IHostingStartup
+  commentId: T:Microsoft.AspNetCore.Hosting.IHostingStartup
+  parent: Microsoft.AspNetCore.Hosting
+  isExternal: true
+  name: IHostingStartup
+  nameWithType: IHostingStartup
+  fullName: Microsoft.AspNetCore.Hosting.IHostingStartup
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Microsoft.AspNetCore.Hosting
+  commentId: N:Microsoft.AspNetCore.Hosting
+  isExternal: true
+  name: Microsoft.AspNetCore.Hosting
+  nameWithType: Microsoft.AspNetCore.Hosting
+  fullName: Microsoft.AspNetCore.Hosting
+- uid: FitnessTracker.Areas.Identity.IdentityHostingStartup.Configure*
+  commentId: Overload:FitnessTracker.Areas.Identity.IdentityHostingStartup.Configure
+  name: Configure
+  nameWithType: IdentityHostingStartup.Configure
+  fullName: FitnessTracker.Areas.Identity.IdentityHostingStartup.Configure
+- uid: Microsoft.AspNetCore.Hosting.IHostingStartup.Configure(Microsoft.AspNetCore.Hosting.IWebHostBuilder)
+  commentId: M:Microsoft.AspNetCore.Hosting.IHostingStartup.Configure(Microsoft.AspNetCore.Hosting.IWebHostBuilder)
+  parent: Microsoft.AspNetCore.Hosting.IHostingStartup
+  isExternal: true
+  name: Configure(IWebHostBuilder)
+  nameWithType: IHostingStartup.Configure(IWebHostBuilder)
+  fullName: Microsoft.AspNetCore.Hosting.IHostingStartup.Configure(Microsoft.AspNetCore.Hosting.IWebHostBuilder)
+  spec.csharp:
+  - uid: Microsoft.AspNetCore.Hosting.IHostingStartup.Configure(Microsoft.AspNetCore.Hosting.IWebHostBuilder)
+    name: Configure
+    nameWithType: IHostingStartup.Configure
+    fullName: Microsoft.AspNetCore.Hosting.IHostingStartup.Configure
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.AspNetCore.Hosting.IWebHostBuilder
+    name: IWebHostBuilder
+    nameWithType: IWebHostBuilder
+    fullName: Microsoft.AspNetCore.Hosting.IWebHostBuilder
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.AspNetCore.Hosting.IHostingStartup.Configure(Microsoft.AspNetCore.Hosting.IWebHostBuilder)
+    name: Configure
+    nameWithType: IHostingStartup.Configure
+    fullName: Microsoft.AspNetCore.Hosting.IHostingStartup.Configure
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.AspNetCore.Hosting.IWebHostBuilder
+    name: IWebHostBuilder
+    nameWithType: IWebHostBuilder
+    fullName: Microsoft.AspNetCore.Hosting.IWebHostBuilder
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.AspNetCore.Hosting.IWebHostBuilder
+  commentId: T:Microsoft.AspNetCore.Hosting.IWebHostBuilder
+  parent: Microsoft.AspNetCore.Hosting
+  isExternal: true
+  name: IWebHostBuilder
+  nameWithType: IWebHostBuilder
+  fullName: Microsoft.AspNetCore.Hosting.IWebHostBuilder
