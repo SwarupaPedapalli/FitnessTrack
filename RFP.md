@@ -49,9 +49,3 @@ This screen allows the user to customize the exercises based on his/her interest
 ![image](https://user-images.githubusercontent.com/77590874/160764335-d183aed3-1a3e-4a9f-aa10-6190a64bf4c7.png)
 ![image](https://user-images.githubusercontent.com/77590874/160764372-76d4416e-ad88-4124-b3cc-5024b38628e1.png)
 ![image](https://user-images.githubusercontent.com/77590874/160764450-853a5fe0-8195-4069-b660-cba68a92c53d.png)
-
-<img src="images/Week Plan.png" alt="weekdays_image"/>
-<img src="images/Add Activity.png" alt="activity_image"/>
-<img src="images/Session Page.png" alt="session_image"/>
-<img src="images/Bodyweight.png" alt="bodyweight_image"/>
-
