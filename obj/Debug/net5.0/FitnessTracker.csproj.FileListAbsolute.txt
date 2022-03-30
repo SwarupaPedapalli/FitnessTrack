@@ -592,3 +592,6 @@ C:\Users\S542359\Downloads\FitnessTracker (1)\obj\Debug\net5.0\refint\FitnessTra
 C:\Users\S542359\Downloads\FitnessTracker (1)\obj\Debug\net5.0\FitnessTracker.pdb
 C:\Users\S542359\Downloads\FitnessTracker (1)\obj\Debug\net5.0\FitnessTracker.genruntimeconfig.cache
 C:\Users\S542359\Downloads\FitnessTracker (1)\obj\Debug\net5.0\ref\FitnessTracker.dll
+C:\Users\S542301\Desktop\4sem\GDP2\FitnessTrack\obj\Debug\net5.0\FitnessTracker.dll
+C:\Users\S542301\Desktop\4sem\GDP2\FitnessTrack\obj\Debug\net5.0\ref\FitnessTracker.dll
+C:\Users\S542301\Desktop\4sem\GDP2\FitnessTrack\obj\Debug\net5.0\FitnessTracker.pdb

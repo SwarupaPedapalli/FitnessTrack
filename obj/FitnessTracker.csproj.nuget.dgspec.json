@@ -1,28 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\S542359\\Downloads\\FitnessTracker (1)\\FitnessTracker.csproj": {}
+    "C:\\Users\\S542301\\Desktop\\4sem\\GDP2\\FitnessTrack\\FitnessTracker.csproj": {}
   },
   "projects": {
-    "C:\\Users\\S542359\\Downloads\\FitnessTracker (1)\\FitnessTracker.csproj": {
+    "C:\\Users\\S542301\\Desktop\\4sem\\GDP2\\FitnessTrack\\FitnessTracker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\S542359\\Downloads\\FitnessTracker (1)\\FitnessTracker.csproj",
+        "projectUniqueName": "C:\\Users\\S542301\\Desktop\\4sem\\GDP2\\FitnessTrack\\FitnessTracker.csproj",
         "projectName": "FitnessTracker",
-        "projectPath": "C:\\Users\\S542359\\Downloads\\FitnessTracker (1)\\FitnessTracker.csproj",
-        "packagesPath": "C:\\Users\\S542359\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\S542359\\Downloads\\FitnessTracker (1)\\obj\\",
+        "projectPath": "C:\\Users\\S542301\\Desktop\\4sem\\GDP2\\FitnessTrack\\FitnessTracker.csproj",
+        "packagesPath": "C:\\Users\\S542301\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\S542301\\Desktop\\4sem\\GDP2\\FitnessTrack\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\S542359\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\S542301\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
         },
         "frameworks": {
           "net5.0": {
@@ -87,6 +86,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.14, 5.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -95,7 +112,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
