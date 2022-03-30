@@ -25,7 +25,7 @@ Following are the requirements to set up the virtual studio after cloning the my
 >In order to deploy we do it heroku. When the changes of code are made push to main repo and then build will start in heroku.
 
 ### Testing
-<br>We haven't started testing yet. will start and complete by spring break</br>
+<br> working on it.writing methods and errors need to be resolved</br>
 Nunit is done for testing
 ### Documentation Sites
 
