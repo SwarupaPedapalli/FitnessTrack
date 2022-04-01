@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1GRQKyVpRPL+iEUhlpFyNrwsTMeEZNKrm16mZUXdIt2LyZz6x7fiZbtReeGg7qRLLBjf48WOHgaR288fymlIZw==",
+  "dgSpecHash": "z+ijQeNHAgs16tb+Jt0+OHFlEeSp47gmypQ4zm8tJCmEdXKwrALVvuG9Az/cBfjmfa1uus5fCwaIofjrF22lIA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\S542359\\OneDrive - nwmissouri.edu\\Documents\\Spring 2022\\GDP 2\\Project\\FitnessTrack\\FitnessTracker.csproj",
+  "projectFilePath": "C:\\Users\\S542359\\OneDrive - nwmissouri.edu\\Documents\\Spring 2022\\GDP 2\\Project\\FitnessTrack\\Web\\FitnessTracker.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\S542359\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.9\\microsoft.aspnetcore.cryptography.internal.3.1.9.nupkg.sha512",
     "C:\\Users\\S542359\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.9\\microsoft.aspnetcore.cryptography.keyderivation.3.1.9.nupkg.sha512",

@@ -8961,11 +8961,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\S542359\\OneDrive - nwmissouri.edu\\Documents\\Spring 2022\\GDP 2\\Project\\FitnessTrack\\FitnessTracker.csproj",
+      "projectUniqueName": "C:\\Users\\S542359\\OneDrive - nwmissouri.edu\\Documents\\Spring 2022\\GDP 2\\Project\\FitnessTrack\\Web\\FitnessTracker.csproj",
       "projectName": "FitnessTracker",
-      "projectPath": "C:\\Users\\S542359\\OneDrive - nwmissouri.edu\\Documents\\Spring 2022\\GDP 2\\Project\\FitnessTrack\\FitnessTracker.csproj",
+      "projectPath": "C:\\Users\\S542359\\OneDrive - nwmissouri.edu\\Documents\\Spring 2022\\GDP 2\\Project\\FitnessTrack\\Web\\FitnessTracker.csproj",
       "packagesPath": "C:\\Users\\S542359\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\S542359\\OneDrive - nwmissouri.edu\\Documents\\Spring 2022\\GDP 2\\Project\\FitnessTrack\\obj\\",
+      "outputPath": "C:\\Users\\S542359\\OneDrive - nwmissouri.edu\\Documents\\Spring 2022\\GDP 2\\Project\\FitnessTrack\\Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\S542359\\AppData\\Roaming\\NuGet\\NuGet.Config",
