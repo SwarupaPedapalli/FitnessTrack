@@ -19,10 +19,24 @@ Sai Satyanarayana Gullapalli - S542359@nwmissouri.edu
 ## Execution of Project
 • To execute my project on your laptop, first install [Visual Studio](https://visualstudio.microsoft.com/), then ASP.NET and web development, and finally the.NET 5.0 runtime from the individual component store. Finally, download and install the .NET 5.0 SDK.
 
-### SetUp,Running,Deployment
+### SetUp
 Following are the requirements to set up the virtual studio after cloning the my repository.
 >In Visual Studio, open the FitnessTrack.sln file  and then debug the file to run the project.
 >In order to deploy we do it heroku. When the changes of code are made push to main repo and then build will start in heroku.
+
+## Running
+We have used Nunit testing for our applications.
+
+Open the NuGet Package Manager for your solution by navigating to Tools > NuGet Package Manager > Manage NuGet Packages for Solution.
+Click on the Updates tab and search for NUnit test adapters that are installed.
+Select the test adapter, and then select the latest stable version in the drop-down menu.
+Choose the Install button.
+
+## Deployment
+1. Create an application in the heroku.
+2. Link the Github with heroku.
+3. Enable the automatic deployment.
+4. Once ready click on deploy.
 
 ### Testing
 ![image](https://user-images.githubusercontent.com/77590874/161357345-f9e085bb-2424-4b7e-9091-bc508ce1f095.png)
