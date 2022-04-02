@@ -25,7 +25,9 @@ Following are the requirements to set up the virtual studio after cloning the my
 >In order to deploy we do it heroku. When the changes of code are made push to main repo and then build will start in heroku.
 
 ### Testing
-<br> working on it.writing methods and errors need to be resolved</br>
+![image](https://user-images.githubusercontent.com/77590874/161357345-f9e085bb-2424-4b7e-9091-bc508ce1f095.png)
+
+Due to some unavailable nuget packages in my visual studio, we are unable to generate the HTML report. </br>
 Nunit is done for testing
 ### Documentation Sites
 
@@ -34,3 +36,5 @@ Nunit is done for testing
 [User Guide](https://github.com/Satyachowdary97/fitness_track-doc)
 
 [Test Coverage](https://app.codacy.com/gh/SwarupaPedapalli/FitnessTrack/dashboard?utm_source=github.com&utm_medium=referral&utm_content=SwarupaPedapalli/FitnessTrack&utm_campaign=Badge_Grade)
+
+[DocFx](https://satyachowdary97.github.io/FitnessTrack-document/)
