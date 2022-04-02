@@ -33,6 +33,7 @@
     ".NETCoreApp,Version=v5.0": {
       "FitnessTracker/1.0.0": {
         "dependencies": {
+          "JetBrains.Annotations": "2021.3.0",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "3.1.9",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.1.9",
           "Microsoft.AspNetCore.Identity.UI": "3.1.9",
@@ -331,6 +332,17 @@
         },
         "compile": {
           "FitnessTracker.dll": {}
+        }
+      },
+      "JetBrains.Annotations/2021.3.0": {
+        "runtime": {
+          "lib/netstandard2.0/JetBrains.Annotations.dll": {
+            "assemblyVersion": "2021.3.0.0",
+            "fileVersion": "2021.3.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/JetBrains.Annotations.dll": {}
         }
       },
       "Microsoft.AspNetCore.Cryptography.Internal/3.1.9": {},
@@ -3909,6 +3921,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "JetBrains.Annotations/2021.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ddxjs5RRjf+c8m9m++WvhW1lz1bqNhsTjWvCLbQN9bvKbkJeR9MhtfNwKgBRRdG2yLHcXFr5Lf7fsvvkiPaDRg==",
+      "path": "jetbrains.annotations/2021.3.0",
+      "hashPath": "jetbrains.annotations.2021.3.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Cryptography.Internal/3.1.9": {
       "type": "package",
